@@ -16,8 +16,8 @@
  * HTTP_SERVER is your Main webserver: eg-http://www.yourdomain.com
  * HTTPS_SERVER is your Secure/SSL webserver: eg-https://www.yourdomain.com
  */
-define('HTTP_SERVER', 'http://lefab3d.com/2019lefab3d');
-define('HTTPS_SERVER', 'https://lefab3d.com/2019lefab3d');
+define('HTTP_SERVER', 'http://192.168.86.44');
+define('HTTPS_SERVER', 'https://192.168.86.44');
 /**
  *  If you want to tell Zen Cart to use your HTTPS URL on sensitive pages like login and checkout, set this to 'true'. Otherwise 'false'. (Keep the quotes)
  */
@@ -45,11 +45,8 @@ define('DB_TYPE', 'mysql'); // always 'mysql'
 define('DB_PREFIX', ''); // prefix for database table names -- preferred to be left empty
 define('DB_CHARSET', 'utf8mb4'); // 'utf8mb4' or older 'utf8' / 'latin1' are most common
 define('DB_SERVER', 'localhost');  // address of your db server
-//define('DB_SERVER_USERNAME', 'zencartuser');
-define('DB_SERVER_USERNAME', 'belevane_lefab3d');
-define('DB_SERVER_PASSWORD', 'XM3)oliDxTz#');
-//define('DB_SERVER_PASSWORD', '1234');
-define('DB_DATABASE', 'belevane_2019lefab3d');
+define('DB_SERVER_USERNAME', 'zencartuser');
+define('DB_SERVER_PASSWORD', '1234');
 define('DB_DATABASE', 'zencart');
 //database name: belevane_2019lefab3d
 
