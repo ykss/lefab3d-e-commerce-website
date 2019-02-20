@@ -1,0 +1,193 @@
+.shippingEstimatorWrapper {
+	font-family: "Trebuchet MS",Helvetica,sans-serif !important;
+	font-size: 14px;
+	padding: 15px;
+}
+
+.cartTotalsDisplay {
+    color: #2e3233;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.shippingEstimatorWrapper p:first-child {
+	display: none;
+}
+	
+	.shippingEstimatorWrapper h2 {
+		color: #3b859e;
+		font: bold 21px Asap, Helvetica, sans-serif;
+		margin-bottom: 19px;
+		text-transform: uppercase;
+	}
+
+	#seAddressPulldown + div,
+	.shippingEstimatorWrapper address {
+		display: block;
+		float: none;
+		color: #2E3248;
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	#seAddressPulldown + div {
+		margin-bottom: 21px;
+		padding-top: 17px;
+	}
+
+	#seShipTo {
+		margin-bottom: 6px !important;
+		padding-top: 8px !important
+	}
+
+	.shippingEstimatorWrapper address {
+		width: auto;
+		min-width: 390px;
+		background: #f2f2f2;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		padding: 25px;
+		border: 1px solid #E9E9E9;
+		margin-bottom: 21px;
+	}
+
+	.shippingEstimatorWrapper table th {
+		border: 0;
+		color: #e2e3df;
+		font-size: 14px;
+		font-size: 14px;
+		font-weight: 600;
+		padding: 15px 0;
+		text-align: left;
+		text-transform: uppercase;
+		background: #2e3233;
+	}
+
+	.shippingEstimatorWrapper table td {
+		font-size: 14px;
+		padding: 15px 15px 15px 0;
+		vertical-align: middle;
+		color: #2e3233;
+		border-bottom: 1px solid #e2e3df;
+	}
+
+	.shippingEstimatorWrapper table td.seDisplayedAddressLabel {
+		line-height: 22px;
+		padding: 30px 0
+	}
+
+		.shippingEstimatorWrapper table td.seDisplayedAddressLabel span {
+			font-weight: bold;
+		}
+
+	.shippingEstimatorWrapper table th,
+	.shippingEstimatorWrapper table td {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+
+	.shippingEstimatorWrapper p a {
+		color: #3b859e;
+		display: block;
+		padding: 21px 0;
+		text-align: center;
+		font-size: 14px;
+		text-decoration: underline;
+	}
+
+	.form-container {
+		width: auto;
+		min-width: 390px;
+		background: #f2f2f2;
+		padding: 25px;
+		color: #FFF;
+		border: 1px solid #E9E9E9;
+	}
+
+	#shippingEstimatorContent label,
+	#shippingEstimatorContent input[type="text"],
+	#shippingEstimatorContent input[type="password"],
+	#shippingEstimatorContent select {
+		border: 0;
+		display: block;
+		max-width: 246px;
+		width: 100%;
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	#shippingEstimatorContent label {
+		color: #2e3233;
+		font-size: 14px;
+		margin: 0 0 9px;
+	}
+
+	#shippingEstimatorContent input[type="text"],
+	#shippingEstimatorContent input[type="password"],
+	#shippingEstimatorContent select {
+		height: 33px;
+		padding: 6px;
+		margin: 0 12px 20px 0;
+		border: 1px solid #aab5b9;
+	}
+
+	#shippingEstimatorContent select {
+		padding-left: 3px
+	}
+
+	#shippingEstimatorContent input[type="text"].hiddenField {
+		display: none;
+	}
+
+	#shippingEstimatorContent input[type="text"] + br,
+	#shippingEstimatorContent input[type="password"] + br,
+	#shippingEstimatorContent select + br,
+	#shippingEstimatorContent span + br {
+		display: none;
+	}
+	
+	#stateZone + br + label {
+		display: none;
+	}
+
+	#shippingEstimatorContent .cssButton,
+	#shippingEstimatorContent .cssButtonHover {
+		background: #3b859e;
+		color: #FFF;
+		border: 0;
+		padding: 8px 13px 9px 14px;
+		text-transform: uppercase;
+		font-size: 14px;
+		width: auto !important;
+		border: 1px solid #3b859e;
+		margin: 9px 0 0 0;
+		font-weight: bold
+	}
+
+	#shippingEstimatorContent .cssButtonHover,
+	#shippingEstimatorContent .cssButton:focus {
+		background: #174d5f;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	#popupShippingEstimator #button-update {
+		float: none;
+	}
+
+
+#stText {
+	display: block;
+	margin-top: -13px;
+}
+
+
+
+
+
+
+
+

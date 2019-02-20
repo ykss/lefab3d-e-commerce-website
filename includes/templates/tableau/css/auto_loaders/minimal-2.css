@@ -1,0 +1,255 @@
+/* http://nicolasgallagher.com/micro-clearfix-hack */
+#tabsaccordion-0 {margin: 30px 0 0 !important; font-size: .825em;}
+
+#tabsaccordion-0.tabs {
+  
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:after,
+.clearfix:before {
+  display: table;
+  content: "";
+}
+.minimal-2:focus {
+  outline: none;
+}
+.minimal-2.accordion > section {
+  padding: 24px;
+}
+
+.minimal-2.accordion > section:first-child {
+  border-top: none;
+}
+
+.minimal-2.accordion > section > * {
+  max-width: 100%;
+}
+.minimal-2.accordion > section > :first-child {
+  margin-top: 0;
+}
+.js .minimal-2.accordion > section {
+  padding: 0;
+}
+
+.js .minimal-2.accordion > section > *:first-child,
+.minimal-2.tabs > ul > li {
+    border-bottom: 1px solid #e2e3df;
+    background: #2e3233;
+    color: #e2e3df;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 12px;
+    position: relative;
+    text-transform: uppercase;
+
+    -webkit-transition: all .25s;
+       -moz-transition: all .25s;
+        -ms-transition: all .25s;
+         -o-transition: all .25s;
+            transition: all .25s;
+}
+
+.js .minimal-2.accordion > section > *:first-child:before,
+.minimal-2.accordion > section[aria-expanded="true"] > :first-child:before,
+.minimal-2.tabs > ul > li:before {
+    border-style: solid;
+    cursor: pointer;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 0;
+}
+
+.js .minimal-2.accordion > section > *:first-child:before,
+.minimal-2.tabs > ul > li:before {
+    border-width: 8px 4px 0 4px;
+    border-color: #e2e3df transparent transparent transparent;
+}
+
+.minimal-2.accordion > section[aria-expanded="true"] > :first-child:before {
+    border-color: transparent transparent #E2E3DF;
+    border-width: 0 4px 8px;
+}
+
+.js .minimal-2.accordion > section > :first-child + * > * {
+    background: #e2e3df;
+    padding: 12px 12px 8px;
+    margin-bottom: 0;
+}
+
+.js .minimal-2.accordion > .tab-content > div span,
+.js .minimal-2.accordion > .tab-content > div,
+.js .minimal-2.accordion > .tab-content > div p,
+.js .minimal-2.accordion > .tab-content > div *,
+.js .minimal-2.tabs > .tab-content > div span,
+.js .minimal-2.tabs > .tab-content > div,
+.js .minimal-2.tabs > .tab-content > div p,
+.js .minimal-2.tabs > .tab-content > div *,
+.comments-body {
+    color: #585d50;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.minimal-2 .tab-content > div strong,
+.minimal-2 .tab-content > div h1,
+.minimal-2 .tab-content > div h2,
+.minimal-2 .tab-content > div h3,
+.minimal-2 .tab-content > div h4,
+.minimal-2 .tab-content > div h5,
+.minimal-2 .tab-content > div h6 {
+    font-weight: bold;
+}
+
+.minimal-2 .tab-content > div h1,
+.minimal-2 .tab-content > div h2,
+.minimal-2 .tab-content > div h3,
+.minimal-2 .tab-content > div h4,
+.minimal-2 .tab-content > div h5,
+.minimal-2 .tab-content > div h6 {
+  color: #2e3233 !important;
+  margin-bottom: 3px !important;
+  margin-top: -2px
+}
+
+.minimal-2 .tab-content > div h1:first-child,
+.minimal-2 .tab-content > div h2:first-child,
+.minimal-2 .tab-content > div h3:first-child,
+.minimal-2 .tab-content > div h4:first-child,
+.minimal-2 .tab-content > div h5:first-child,
+.minimal-2 .tab-content > div h6:first-child {
+  margin-top: 0
+}
+
+.minimal-2 .tab-content > div li {
+    background: url(../../images/ico_bullet_list_3.png) no-repeat left 10px;
+    padding-left: 12px;
+}
+
+
+.js .minimal-2.accordion > section > :first-child + * > * > * {
+  max-width: 100%;
+}
+.js .minimal-2.accordion > section > :first-child + * > * > :first-child {
+  margin-top: -3px;
+}
+.js .minimal-2.accordion > section > :first-child + * > * > :last-child {
+  margin-bottom: 0;
+}
+
+
+
+.minimal-2.accordion > section > :last-child {
+  
+  margin-bottom: 0;
+  line-height: 18px
+}
+
+.minimal-2.accordion.transition > section > :first-child {
+    position: relative;
+    margin-bottom: 4px;
+} 
+
+.minimal-2.accordion.transition > section > :first-child + div {
+    margin-bottom: 3px;
+    margin-top: -5px;
+}
+
+.minimal-2.accordion.transition > section > :first-child span {
+    background: url(../../images/ico_minus_plus_collapse.png) no-repeat 0 0;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 13px
+}
+
+.minimal-2.accordion.transition > section > :first-child:hover {
+    background: #3b859e
+}
+
+.minimal-2.accordion.transition > section > :first-child:hover span {
+    background-position: -13px 0
+}
+
+.minimal-2.tabs.cross-fade.transition > ul > li {
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+.js .minimal-2.tabs.hide-title > section > :first-child + * {
+  margin-top: 0;
+}
+.minimal-2.tabs > section {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 24px;
+}
+.minimal-2.tabs > section > * {
+  max-width: 100%;
+}
+.minimal-2.tabs > section > :first-child {
+  margin-top: 0;
+}
+.js .minimal-2.tabs > section > * > * > * {
+  line-height: 18px;
+  max-width: 100%;
+}
+.js .minimal-2.tabs > section > * > * > :first-child {
+  margin-top: 0;
+}
+.js .minimal-2.tabs > section > * > * > :last-child {
+  margin-bottom: 0;
+}
+.minimal-2.tabs > section > :last-child {
+  margin-bottom: 0;
+}
+.minimal-2.tabs > section + section {
+  margin-top: -1px;
+}
+.js .minimal-2.tabs > section + section {
+  margin-top: 0;
+}
+.minimal-2.tabs > ul {
+  zoom: 1;
+  border: none;
+  border-bottom: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 0 5px;
+  height: 42px;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  z-index: 2002;
+}
+.minimal-2.tabs > ul:after {
+  clear: both;
+}
+.minimal-2.tabs > ul:after,
+.minimal-2.tabs > ul:before {
+  display: table;
+  content: "";
+}
+
+.minimal-2.tabs > ul > li:first-child {
+    margin-left: 0
+}
+
+.minimal-2.tabs > ul > li.current {
+    z-index: 1003 !important;
+}

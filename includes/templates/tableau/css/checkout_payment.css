@@ -1,0 +1,253 @@
+.checkout_pages strong {
+	font-weight: bold;
+}
+
+[class*="col-"] {
+	border-left: 1px solid #e2e3df;
+	float: left;
+	padding-left: 5%;
+	position: relative;
+	width: 50%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class*="-first"] {
+	border-left: none;
+	border-right: 1px solid #e2e3df;
+	right: -1px;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 5%;
+}
+
+.checkout_pages h2 {
+	color: #2e3233;
+	font-size: 18px;
+	margin: 27px 0 14px;
+	font-weight: bold;
+	line-height: 23px;
+}
+
+[class*="col-"] > h2:first-child,
+[class*="col-"] > div:first-child > h2:first-child,
+[class*="col-"] > fieldset:first-child > h2:first-child {
+	margin-top: 0;
+}
+
+.checkout_pages h1 + h2 {
+	margin-top: 0;
+}
+
+	.checkout_pages .box {
+		background: #f2f2f2;
+		border: 1px solid #E9E9E9;
+		padding: 20px;
+		font-size: 14px;
+		line-height: 21px;
+		margin: 0 0 15px;
+	}
+		
+		#checkoutBillto .buttonRow {
+			margin-top: 10px;
+		}
+
+		#checkoutBillto .buttonRow a {
+			color: #3b859e;
+			left: -4px;
+			position: relative;
+			text-decoration: none;
+		}
+
+		#checkoutBillto .buttonRow a:hover {
+			color: #174d5f
+		}
+
+	.checkout_pages p {
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 15px;
+	}
+
+	.checkout_pages .clearBoth {
+		margin-top: 4px;
+		margin-bottom: 0;
+		color: #ccc;
+		background: #ccc;
+		border: none;
+		height: 0;
+	}
+
+#checkoutPaymentMethod {
+	display: block;
+	margin-bottom: 0;
+	border-top-width: 0;
+}
+
+#checkoutShippingContentChoose + fieldset {
+	border-top-width: 1px;
+}
+
+	#checkoutPaymentMethod .legend {
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 7px;
+		margin-top: -5px;
+	}
+
+	#checkoutPaymentMethod .important,
+	#checkoutPaymentMethod label {
+		font-size: 14px;
+		display: inline-block;
+		position: relative;
+		top: 2px;
+	}
+
+	#checkoutPaymentMethod label {
+		
+		padding-left: 12px;
+	}
+
+	#checkoutPaymentMethod input[type="radio"] {
+		margin: 0;
+		position: relative;
+		top: 0;
+	}
+
+	/* os = windows */
+	.windows #checkoutPaymentMethod input[type="radio"] {
+		top: 4px
+	}
+
+	.field label {
+		color: #2e3233;
+		display: block;
+		font-size: 14px;
+		margin: 0 0 9px;
+	}
+
+	#comments textarea,
+	.field input[type="text"] {
+		height: 100px;
+		padding: 5px;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.field input[type="text"] {
+		height: 33px;
+		padding: 0 6px;
+		margin: 0 12px 20px 0;
+		max-width: 246px;
+	}
+
+	#discount input[type="text"] {
+		margin-bottom: 0;
+	}
+
+
+	.container-button {
+		font-size: 14px;
+		overflow: hidden;
+		margin-top: 21px;
+	}
+
+		.container-button .back {
+			line-height: 21px;
+			position: relative;
+			top: -2px;
+		}
+
+		.container-button .cssButton,
+		.container-button .cssButtonHover {
+			width: auto !important;
+			cursor: pointer; 
+			padding: 9px 15px;
+			text-transform: uppercase;
+			font-size: 14px;
+			border: 0;
+			background: #3b859e;
+			color: #fff;
+			margin: 0;
+			font-weight: bold;
+
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+		}
+
+		@-moz-document url-prefix() {
+			.container-button .cssButton,
+			.container-button .cssButtonHover {
+				padding: 8px 12px 9px;
+			}
+		}
+
+		.container-button .cssButtonHover {
+			background: #174d5f; color: #FFF;
+		}
+
+#checkoutOrderTotals table {
+	border-top: 1px solid #e2e3df;
+	width: 100%;
+}
+
+	#checkoutOrderTotals td {
+		border-color: #e2e3df;
+		border-style: solid;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+		font-size: 14px;
+		text-align: right;
+		padding: 12px;
+	}
+
+	#checkoutOrderTotals td.totalBox {
+		border-right-width: 1px;
+	}
+
+	#checkoutOrderTotals #ottotal td {
+		background: #f2f2f2;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+@media only screen and (max-width: 768px) {
+	[class*="col-"] {
+		border-left: 0;
+		float: none;
+		margin-left: 0;
+		padding-left: 0;
+		width: auto;
+	}
+}
+		
+@media only screen and (max-width: 610px) {
+	.container-button > div {
+		display: block;
+		float: none;
+	}	
+
+	.container-button .back {
+		margin-top: 21px;
+	}
+
+	.container-button .cssButton,
+	.container-button .cssButtonHover {
+		width: 100% !important
+	}
+
+
+}
+
+
+
+
+
+
+			

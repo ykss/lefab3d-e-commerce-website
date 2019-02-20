@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fecHead, .fecBlockEdit {width: 555px !important;}
+#fecLeft, #easyLogin.hiddenField {margin-right: 0 !important;}
+.fecBlock .width50 {width: 255px !important;}
+.productTitle {width: 318px !important;}
+#quickCheckout UL.addressForm LI {margin-bottom: 12px !important;}
+#shippingAddressContainer LABEL {float: none !important;}
+.cowoaOption table tr td {padding: 12px !important;}
+#quickCheckout .ccinfo INPUT {display: block; float: left; clear: none !important;}
+#paypaldp-cc-expires-year {float: none !important; display: inline !important;}
+.shippingMethod .important {clear: right;}

@@ -1,0 +1,60 @@
+/* Columns */
+.col-left {width: 60.122699386503% /* 588px/978px */; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; padding: 0 60px 0 0;}
+.col-right {width: 39.877300613497% /* 390px/978px */; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+
+/* Headlines */
+h2#order-number-headline {font-size: 14px; line-height: 100%; margin: 0 0 28px; text-transform: uppercase; font-weight: bold;}
+
+/* Paragraphs */
+#checkout-success-content {
+	padding-bottom: 28px
+}
+
+/* Buttons */
+.continue-shopping-btn, .log-off-btn, .notifications-form-wrapper input[type="submit"] {display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; padding: 10px 15px; font-size: 14px; text-decoration: none; text-transform: uppercase; width: auto !important;}
+.notifications-form-wrapper input[type="submit"] {
+	padding: 8px 15px 9px;
+	margin: 0;
+}
+@-moz-document url-prefix() {
+	.notifications-form-wrapper input[type="submit"] {
+		padding: 7px 11px 7px;
+	}
+}
+
+.continue-shopping-btn, .notifications-form-wrapper input[type="submit"] {background: #3b859e; border: 1px solid #3b859e; color: #FFF; font-weight: bold;}
+.continue-shopping-btn:hover, .notifications-form-wrapper input[type="submit"]:hover {background: #174d5f; color: #fff; cursor: pointer; font-weight: bold;}
+.log-off-btn { background: #424748; border: 1px solid #424748; color: #FFF; margin: 0 0 0 12px; font-weight: bold;}
+.log-off-btn:hover {background: #2e3233; color: #fff;}
+
+/* Product Notifications */
+.product-notifications-wrapper h3 {background: #2e3233; color: #e2e3df; font-size: 14px; text-transform: uppercase; height: auto; line-height: normal; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; padding: 10px 12px; margin-bottom: 0; font-weight: bold;}
+.notifications-form-wrapper {padding: 24px 21px; border: 1px solid #E9E9E9; font-size: 0.875em /* 14px/16px */; background: #e2e3df;}
+.notifications-form-wrapper .buttonRow {margin: 2px 0 0 0;}
+
+.notifications-form-wrapper input[type="checkbox"] {
+	float: left;
+	clear: left;
+	margin: 1px 9px 0 0;
+}
+
+.notifications-form-wrapper label {
+	font-size: 14px;
+	color: #2e3233;
+	display: block;
+	overflow: hidden;
+	line-height: 22px;
+	position: relative;
+	top: -4px;
+}
+
+@media only screen and (max-width: 978px) {
+	.col-left, .col-right {padding: 0; width: 100%;}
+	.col-right {margin: 30px 0 0;}
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {font-size: 18px !important;}
+	h2 {font-size: 15px !important;}
+	.checkboxLabel {display: inline-block; margin: 0 0 15px;}
+}

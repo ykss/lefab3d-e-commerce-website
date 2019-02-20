@@ -1,0 +1,46 @@
+#show-all-orders a {color: #3b859e; font-size: 14px; text-decoration: underline; display: block; margin: 30px 0 0;}
+#show-all-orders a:hover {text-decoration: underline;color: #174d5f;}
+
+/* Wrappers */
+.order-history-wrapper {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border; padding: 0; background: none;}
+.order-history-table {width: 100%; background: none; color: #FFF; font-size: 0.875em /* 14px/16px */; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border;}
+.order-history-table th {text-align: left; padding: 15px 21px; border-bottom: 1px solid #444; background: #2e3233; color: #e2e3df; font-weight: bold; text-transform: uppercase;}
+.order-history-table td {padding: 15px 21px; border-bottom: 1px solid #e2e3df; color: #2e3233; font-size: 14px;}
+.order-history-table tr:last-child td {border-bottom: 1px solid #e2e3df;}
+.order-history-table th.order-date, .order-history-table td.order-date {padding: 0 21px 0 15px;}
+.order-history-table th.status, .order-history-table td.status {padding: 0 15px 0 21px;}
+
+#account-menu + div + div[class*="messageStack"] {
+	margin-top: -5px;
+	margin-bottom: 30px;
+}
+
+/* 936px */
+.order-date {width: 15.064102564103% /* 141px/936px */;}
+.order-number {width: 21.153846153846% /* 198px/936px */;}
+.shipping-to {width: 33.012820512821% /* 309px/936px */;}
+.total {width: 13.141025641026% /* 123px/936px */;}
+.status {text-align: right !important;}
+
+.view-link  {
+	color: #2e3233;
+	text-decoration: none;
+}
+
+.view-link span {font-family: 'icomoon'; text-decoration: none; top: 0px; position: relative; font-size: 0.85714285714286em /* 12px/14px */; display: inline-block; margin: 0 3px 0 0;}
+
+.view-link:hover {
+	color: #3b859e;
+}
+
+@media only screen and (max-width: 980px) {
+	.order-history-table th {display: none;}
+	.order-history-table td {width: 100% !important; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; text-align: left !important; padding: 6px 0 !important; border-bottom: 0 !important; line-height: 22px;}
+	.order-history-table td.order-date {padding: 21px 0 6px !important;}
+	.order-history-table td.status {border-bottom: 1px solid #e2e3df !important; padding: 6px 0 21px !important;}
+	.order-history-wrapper {padding: 0 !important;}
+}
+
+@media only screen and (max-width: 875px) {
+	.order-history-wrapper {margin: 30px 0 0;}
+}

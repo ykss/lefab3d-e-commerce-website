@@ -1,0 +1,40 @@
+/* Head Titles */
+.header-wrapper {margin: 0 0 60px;}
+h1 {margin: 0 0 15px;}
+h2 {font-size: 1.125em /* 18px/16px */; margin: 0 0 30px; color: #666;}
+.search-help a {font-size: 0.875em /* 14px/16px */; color: #2e3233; margin: 0 0 30px; display: block;}
+.choose-search-terms {font-size: 0.875em /* 14px/16px */; text-transform: uppercase; font-weight: 700; margin: 0 0 30px;}
+.choose-search-terms.secondary {margin: 30px 0;}
+
+/* Form Labels, Selects, and Inputs */
+.checkbox-wrapper {display: inline;}
+#middle-column-wrapper label {display: block; margin: 0 0 15px; font-size: 0.875em /* 14px/16px */;}
+#middle-column-wrapper label.checkboxLabel {display: inline;}
+#middle-column-wrapper input[type="text"], #middle-column-wrapper select {margin: 0 0 30px; display: inline-block; border: 1px solid #ccc; padding: 6px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; width: 240px;}
+#middle-column-wrapper input[type="checkbox"] {display: inline-block; margin: 0 9px 0 15px;}
+div.price-range, div.date-range {margin: 0 30px 0 0;}
+input[type="text"].price-range, input[type="text"].date-range {width: 105px !important;}
+#middle-column-wrapper input[type="submit"]{background: #2e3233; color: #FFF; border: 1px solid #2e3233; text-transform: uppercase; width: auto !important; padding: 6px 12px; margin: 30px 0 0;}
+#middle-column-wrapper input[type="submit"]:hover {background: #FFF; color: #2e3233; cursor: pointer;}
+.messageStackError, .messageStackSuccess, .messageStackCaution
+{}
+@media only screen and (max-width: 978px) {
+	#navBreadCrumb, #middle-column-wrapper {padding: 0 21px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+	.search-help.forward {display: none;}
+}
+
+@media only screen and (max-width: 640px) {
+	.checkbox-wrapper {display: block; margin: 0 0 30px;}
+	#middle-column-wrapper input[type="checkbox"] {margin: 0 9px 0 0;}
+	.header-wrapper {margin: 0 0 60px;}
+	#title-header.back, .search-help.forward {float: none;}	
+	#middle-column-wrapper input[type="submit"]:hover {background: #2e3233; color: #FFF;}
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {font-size: 18px !important;}
+	h2 {font-size: 16px;}
+	.header-wrapper {margin: 0 0 45px;}
+	#middle-column-wrapper input[type="submit"] {width: 100% !important; height: 30px; margin: 15px 0 0;}
+
+}

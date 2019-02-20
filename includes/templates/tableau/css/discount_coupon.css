@@ -1,0 +1,111 @@
+#discountcouponInfoMainContent + form h2 {
+	display: none;
+}
+
+.discount-wrapper form {
+	overflow: hidden;
+	padding-top: 30px
+}
+
+/* subscribe */
+.discount-content .plainBox {
+	display: none;
+}
+
+.discount-content form {
+	font-size: 14px;
+	padding: 21px 0;
+}
+
+	.discount-content input[type="text"] {
+		border: 1px solid #8c8979;
+	    height: 37px;
+	    margin-right: 12px;
+	    padding: 0 5px 1px;
+	    width: 100%;
+	    max-width: 222px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		        float: left;
+	}
+	
+	.discount-content label {
+		float: left;
+		color: #2E3248;
+		font-size: 14px;
+		margin-right: 12px;
+		line-height: 37px;
+	}
+
+	.discount-content label input[type="text"]:focus {
+		border-color: #2B2921
+	}
+
+	.discount-content .buttonRow {
+		float: left;
+		width: auto;
+		position: relative;
+		top: -1px;
+	}
+
+	.discount-content .cssButton,
+	.discount-content .cssButtonHover {
+		background: #3b859e;
+		color: #FFF;
+		cursor: pointer;
+		font-weight: bold;
+		border: 0;
+		padding: 9px 15px !important;
+		text-transform: uppercase;
+		font-size: 14px;
+		width: auto !important;
+		border: 1px solid #3b859e;
+		margin: 0;
+		position: relative;
+		top: 1px;
+	}
+	
+	.discount-content .cssButton:focus,
+	.discount-content .cssButtonHover {
+		background: #174d5f;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	.discount-content .main {
+		display: none;
+	}
+
+@media only screen and (max-width: 880px) {
+
+	.discount-content input[type="text"] {
+		display: block;
+		margin: 0 0 12px 0;
+		max-width: 100% !important;
+		width: 100% !important
+	}
+
+	.discount-content input[type="radio"] {
+		margin-left: 0
+	}
+
+	.discount-content .buttonRow {
+		float: left;
+		position: static;
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.discount-content .cssButton,
+	.discount-content .cssButtonHover {
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+
+		margin-top: -10px;
+		
+		width: 100% !important
+	}
+
+}

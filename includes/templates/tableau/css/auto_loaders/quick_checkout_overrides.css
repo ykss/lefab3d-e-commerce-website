@@ -1,0 +1,1746 @@
+html,
+body,
+.jPanelMenu-panel {
+	height: auto;
+}
+
+#popup_container {
+	background: #fff;
+	border-radius: 10px;
+	padding: 42px !important;
+	min-width: 600px !important;
+	max-width: 600px !important;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#popup_overlay {
+	background: rgb(73, 73, 73) !important;
+	opacity: .6 !important;
+}
+
+	#popup_container h1 {
+		color: #3b859e !important;
+		font-size: 30px !important;
+		margin-bottom: 22px !important;
+		font-weight: bold;
+	}
+
+	#popup_container #popup_message {
+		color: #2e3233;
+		line-height: 22px;
+		margin-bottom: 21px;
+		font-size: 14px;
+	}
+
+/* Page Wrapper */
+#quickCheckoutContent {padding: 0; position: relative;}
+
+/* Page Title */
+
+#quickCheckoutContent #secureCheckout {
+	border-bottom: none;
+	background: none;
+	float: none !important;
+	font-family: Asap, helvetica, sans-serif !important;
+	height: auto;
+	line-height: normal;
+	margin-bottom: 15px !important;
+	padding: 0 0 15px !important;
+	padding-left: 0 !important;
+	font-size: 30px;
+	font-weight: bold !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	#quickCheckoutContent #secureCheckout {
+		padding-bottom: 0;
+		padding-top: 2px;
+	}
+}
+
+/* Order Steps */
+.orderSteps {
+	float: right;
+    padding: 3px 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+.orderStep {
+	border-radius: 27px 27px 27px 27px;
+    display: block !important;
+    float: left !important;
+    height: 27px;
+    margin: 0 5px !important;
+    width: 27px;
+}
+
+.orderStep span {
+	display: block;
+	padding: 5px 0 0 1px !important;
+	margin: 0 !important;
+	font-size: 1.125em /* 18px/16px */;
+	color: #2e3233 !important;
+	text-align: center !important;
+	line-height: 100%;
+}
+
+.orderStep.currentStep {
+	background: #3b859e !important;
+}
+
+.orderStep.currentStep span {
+	color: #FFF !important;
+}
+
+/* Columns */
+#fecLeft {
+	width: 60%;
+	margin: -19px 3% 0 0;
+}
+
+#fecRight {
+	width: 37%;
+	max-width: 362px;
+	border: none;
+	border-radius: 0;
+	background-color: #F7F7F7;
+	padding: 0 !important;
+	margin-top: 0;
+	color: #2e3233 !important;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* Left Column Main Wrappers */
+#hideRegistration.emptyCart {margin: 0 !important;}
+
+/* Left Column Title Wrappers */
+.fecHead {
+	background-color: #F2F2F2 !important; 
+	border: 1px solid transparent !important;
+	width: 100% !important;
+	height: 46px;
+	line-height: 45px;
+	padding: 0 21px !important;
+	margin: 21px 0 0 !important;
+	opacity: .6;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	        text-transform: uppercase;
+}
+
+#hideRegistration .fecHead {
+	margin-top: 0 !important
+}
+
+#quickCheckout h2.fecHead,
+.fecHead a,
+.fecHead a:link,
+.fecHead a:hover,
+.fecHead a:active,
+.fecHead a:visited {
+    color: #2e3233 !important;
+    font-size: 16px !important;
+    font-family: Asap, Helvetica, sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+#quickCheckout h2.fecHead {
+	border-bottom: 1px solid #e2e3df !important;
+	border-radius: 0;
+	margin-top: 18px !important;
+	text-transform: uppercase !important;
+}
+
+#quickCheckout h2.fecHead.current {
+	color: #e2e3df !important;
+	font-weight: bold !important;
+	opacity: 1;
+	text-transform: uppercase !important;
+}
+
+.fecHead.current {
+	background-color: #2e3233!important;
+	color: #2e3233 !important;
+}
+
+.fecHead.current a, .fecHead.current a:link, .fecHead.current a:hover, .fecHead.current a:active, .fecHead.current a:visited {color: #5e5e5e !important;}
+
+/* Left Column Content Blocks */
+.fecBlock {
+	float: left;
+	position: relative;
+	width: 100% !important;
+	border: 1px solid transparent;
+	border-top: none;
+	background-color: #F7F7F7;
+	border-radius: 0;
+	box-shadow: none;
+	padding: 21px 0;
+	margin: 0;
+	font-size: 14px !important;
+	color: #3E464E !important;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* Titles */
+#quickCheckout h3,
+#checkoutConfirmDefault h3,
+#qc_column22.width50 h2,
+#shippingMethods h3 {
+	font-family: Asap, Helvetica, sans-serif !important;
+	color: #2e3233 !important;
+    font-size: 14px;
+    font-weight: bold !important;
+    line-height: 100%;
+    margin: 0 0 22px !important;
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* Labels */
+#billingAddressContainer .addressForm label,
+#shippingAddressContainer .addressForm label,
+#contactDetailsContainer .addressForm label {
+	line-height: 30px;
+}
+
+#quickCheckout label,
+#quickCheckout label.inputLabel,
+#quickCheckout label.inputLabelPayment,
+#quickCheckout #discountFormot_gv .gvBal label,
+#quickCheckout #newsletterOptions label {
+	display: block;
+	float: left !important;
+	width: 45.105%;
+	clear: both;
+	padding:0;
+	margin: 0;
+	text-align:left;
+	color: #2e3233;
+    font-size: 14px;
+}
+
+#quickCheckout #newsletterOptions label,
+#quickCheckout .radioButtonLabel,
+#quickCheckout .checkboxLabel {
+	font-size: 13px;
+	text-transform: capitalize;
+}
+
+#quickCheckout #newsletterOptions label {
+	line-height: 21px;
+    padding-top: 4px;
+}
+
+/* Inputs and Selects */
+#quickcheckoutBody #quickCheckout #fecLeft input[type="text"],
+#quickcheckoutBody #quickCheckout #fecLeft input[type="password"],
+#quickcheckoutBody #quickCheckout #fecLeft select {
+	border: 1px solid #aab5b9;
+    height: 33px !important;
+    margin-bottom: 11px;
+    margin-top: 2px;
+    padding: 0 5px 1px;
+    width: 100%;
+    max-width: 222px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#quickcheckoutBody #quickCheckout #fecLeft select {
+	padding: 4px 5px !important;
+}
+
+#quickcheckoutBody #quickCheckout #fecLeft select[name*="month"] {
+	width: 20% !important
+}
+
+#quickcheckoutBody #quickCheckout #fecLeft select[name*="year"] {
+	width: 14% !important
+}
+
+#quickcheckoutBody #quickCheckout #fecLeft input[type="text"]:focus,
+#quickcheckoutBody #quickCheckout #fecLeft input[type="password"]:focus,
+#quickcheckoutBody #quickCheckout #fecLeft select:focus,
+#quickcheckoutBody #quickCheckout #fecLeft .gvBal input[type="text"]:focus {
+	border: 1px solid #3b859e !important;
+	box-shadow: 0 0 3px #3b859e;
+}
+
+.addressForm input, .addressForm select {display: block; float: left !important; clear: none !important; margin: 0 0 12px !important; }
+.addressForm #newsletterOptions input[type="checkbox"] {
+	display: inline !important;
+    float: none !important;
+    margin-bottom: 0;
+    position: relative;
+    top: 8px;
+}
+
+.addressForm input[type="text"] {width: 36.297641% /* 200px / 551px */!important; height: 12px !important;}
+#quickCheckout select  {width: 36.294011% /* 211px/551px */ !important; height: auto !important; padding: 3px !important;}
+#shippingAddress-checkbox {padding: 0 !important; margin: 0 !important;}
+#orderComments textarea {
+	background-color: #FFF !important; border: 1px solid #aab5b9 !important; padding: 6px !important; width: 100% !important; -moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box; }
+
+#orderComments textarea:focus {
+	border-color: #2B2921 !important
+}
+
+ul#guestBenefits {margin: 0 0 30px;}
+ul#guestBenefits li {list-style: disc; margin: 0 0 15px 15px;}
+
+/* Hidden Fields */
+.hiddenField {display: none !important;}
+
+/* CSS Buttons */
+.buttonRow.back {
+	float: none;
+	margin-top: 7px
+}
+
+#hideregistrationBack.buttonRow.back {
+	float: left;
+    height: 36px;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+#hideregistrationBack.buttonRow.back {
+
+}
+
+#hideregistrationBack a {
+	text-decoration: none !important
+}
+
+#quickCheckoutContent .cssButton,
+#quickCheckoutContent .cssButtonHover,
+#quickCheckoutContent input.cssButton,
+#quickCheckoutContent input.cssButtonHover
+.fancybox-inner .button_continue,
+.fancybox-inner .button_continueHover,
+#popup_ok,
+#container-password input[type="submit"].cssButton,
+#container-password input[type="submit"].cssButtonHover,
+#addressBookContainer .button_continue,
+#newAddressContainer .button_continue {
+	background: #3b859e;
+    border: none;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold !important;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    height: auto !important;
+    margin: 0;
+    line-height: normal !important;
+    overflow: hidden;
+    padding: 10px 15px !important;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: auto !important;
+}
+
+@-moz-document url-prefix() {
+	#quickCheckoutContent .cssButton,
+	#quickCheckoutContent .cssButtonHover,
+	#quickCheckoutContent input.cssButton,
+	#quickCheckoutContent input.cssButtonHover
+	.fancybox-inner .button_continue,
+	.fancybox-inner .button_continueHover,
+	#popup_ok,
+	#container-password input[type="submit"].cssButton,
+	#container-password input[type="submit"].cssButtonHover,
+	#addressBookContainer .button_continue,
+	#newAddressContainer .button_continue {
+		padding: 8px 12px !important
+	}
+}
+
+#quickCheckoutContent .cssButtonHover,
+#quickCheckoutContent input.cssButtonHover,
+.fancybox-skin .cssButtonHover,
+#container-password input[type="submit"].cssButtonHover,
+#addressBookContainer .button_continueHover,
+#newAddressContainer .button_continueHover,
+#popup_ok:hover {
+	background: #174d5f; color: #fff; cursor: pointer;
+	padding: 10px 15px !important;
+	height: auto !important;
+}
+
+@-moz-document url-prefix() {
+	#quickCheckoutContent .cssButtonHover,
+	#quickCheckoutContent input.cssButtonHover,
+	.fancybox-skin .cssButtonHover,
+	#container-password input[type="submit"].cssButtonHover,
+	#addressBookContainer .button_continueHover,
+	#newAddressContainer .button_continueHover {
+		padding: 8px 12px !important
+	}
+}
+
+#hideregistrationBack.buttonRow.back .cssButton,
+#hideregistrationBack.buttonRow.back .cssButtonHover {
+	padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    padding-left: 11px !important;
+    padding-right: 11px !important;
+}
+
+#hideregistrationBack.buttonRow.back .cssButtonHover {
+	background: #174d5f; color: #fff; cursor: pointer;
+}
+
+#submitButtonContainer {
+	text-align: center;
+}
+
+	#submitButtonContainer input.button_confirm,
+	#submitButtonContainer input.button_confirmHover {
+    	font-size: 14px !important;
+    	float: left !important;
+    	margin-left: 20px !important;
+	    height: auto !important;
+	    font-weight: bold !important
+	}
+
+/* Alerts and Warnings */
+.width50 .alert.validation {
+	color: #E02828 !important;
+	margin-left: 0 !important;
+	margin-top: -2px !important;
+	display: block;
+}
+
+.alert {
+	color: #E02828;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+.alert.validation {
+	color: #E02828 !important;
+	font-size: 13px !important;
+	margin-left: 245px !important;
+	max-width: 200px;
+	line-height: 20px;
+	text-align: left;
+}
+
+	.alert.validation:first-letter,
+	.registrationError:first-letter,
+	.loginError:first-letter {
+		text-transform: capitalize
+	}
+
+.alert.validation .messageStackError {background: inherit !important; margin: 0 !important; padding: 0 !important; height: inherit !important; width: inherit !important; font: inherit !important; text-align: inherit !important; text-transform: inherit !important;}
+.addressForm input.missing, .addressForm select.missing, #checkoutNewAddress input.missing, #checkoutNewAddress select.missing{border: 1px solid #C90D14 !important; margin-bottom: 9px !important;}
+.ccinfo .alert.validation {width: 191px !important; margin: 0 0 0 264px !important;}
+#checkoutNewAddress .alert.validation{margin-left: 200px !important;}
+.loginError {text-align: center;}
+
+.loginError .messageStackError {
+	display: inline-block;
+	background: inherit !important;
+	margin: 0 !important;
+	padding: 6px 3px !important;
+	height: inherit !important;
+	width: inherit !important;
+	font: inherit !important;
+	text-align: inherit !important;
+	letter-spacing: inherit !important;
+	text-transform: inherit !important;
+	line-height: 18px !important;
+	color: #E02828;
+}
+
+.registrationError,
+.loginError {
+	background: none !important;
+	color: #E02828;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    line-height: normal !important;
+    font-size: 13px !important;
+    margin: 0 0 15px !important;
+    padding: 0 !important;
+    text-align: left;
+    text-transform: none !important;
+}
+
+#registerButton .registrationError {height: 29px; line-height: 38px !important; padding: 0 9px !important; width: auto !important;}
+.loginError .messageStackError img {display: none;}
+
+/* Step 1-3 */
+.fecBlock .width50 {width: 50%; padding: 0 15px; float: left; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; line-height: 180%;}
+.fecBlock #qc_column12 {border-right: 1px solid #e2e3df; position: relative; z-index: 100; left: 1px;}
+.fecBlock #qc_column22 {border-left: 1px solid #e2e3df;}
+#forgottenPasswordLink {
+	clear: both;
+    left: 94px;
+    line-height: normal !important;
+    margin: 21px 0 -35px;
+    position: relative;
+    top: -45px;
+}
+#forgottenPasswordLink a {
+	color: #2e3233;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+}
+#forgottenPasswordLink a:hover {color: #3b859e;}
+.width50 p {margin-bottom: 22px !important; text-align: left !important;}
+.fecBlock .width33 {width: 92.917369% !important /* 551px/593px */; /* max-width: 551px; */ margin: 0px 3.541315%;}
+#qc_column2 {border-top: 1px solid #e2e3df; padding: 24px 0 4px;}
+
+#quickCheckoutContent #contactDetailsContainer,
+#quickCheckoutContent #display-privacy {
+	border-top: 1px solid #e2e3df;
+	border-bottom: 1px solid #e2e3df;
+	margin-bottom: 24px !important;
+}
+
+#contactDetailsContainer,
+#qc_column10,
+#display-privacy {
+	padding: 24px 0 24px !important;
+	width: 92.917369% !important /* 551px/593px */; /* max-width: 551px; */
+	margin: 0px 3.541315% !important;
+	clear: both !important;
+}
+
+	#display-privacy {
+		color: #2e3233;
+		border-bottom: medium none !important;
+	    border-top: medium none !important;
+	    font-size: 14px;
+	    line-height: 22px;
+	    overflow: hidden;
+	    padding-bottom: 0 !important;
+	    padding-top: 0 !important;
+	}
+
+	#quickCheckoutContent #display-privacy label {
+		font-size: 14px;
+		width: 90% !important
+	}
+
+	#display-privacy a {
+		color: #2e3233;
+	}
+
+	#display-privacy a:hover {
+		color: #E02828
+	}
+
+		#display-privacy .information {
+			margin-bottom: 13px;
+		}
+
+
+
+#qc_column10 {padding-top: 0 !important;}
+#loginButton, #registerButton, #submitButton, .buttonRow img {cursor: pointer;}
+#securityCheck, #registerButton {margin: 0 21px !important;}
+#requiredText, #copyBillingOption {margin: 0 0 20px; display: block; padding: 0 !important; font-size: 1em; height: 1em; line-height: 1em;}
+#requiredText {float: left; margin-left: 132px !important;}
+#quickCheckout ul.addressForm, #quickCheckout ul.addressForm li {overflow: auto; padding: 0 !important; display: block; width: 100%; list-style-type: none !important; background: none !important;}
+#billingAddressContainer {padding-bottom: 24px !important;}
+#billingAddressContainer h3 {float: left;}
+.cowoaOption {display: block; margin: 0 0 20px !important;}
+
+#fecWelcome.fecBlockEdit {
+	background: #F2F2F2 !important;
+	font-size: 14px;
+	padding: 21px !important;
+	font-weight: 500;
+	color: #2e3233 !important;
+}
+
+.fecBlockEdit {
+	position: relative;
+	background: #F2F2F2 !important; 
+	border: 1px solid transparent !important; 
+	border-top: none !important;
+	width: 100%; /* max-width: 597px; */
+	margin: 0 0 0;
+	padding: 15px 23px 36px;
+	overflow: auto;
+	font-size: 14px;
+	color: #999 !important;
+	border-radius: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+
+	opacity: .6;
+}
+.fecBlockEdit ul {list-style: none; padding: 0; margin: 0;}
+.fecBlockEdit ul li {float: left; padding: 0 46px 0 0;}
+.fecBlockEdit ul li {width: 38.878843% !important;  font-size: 14px !important;}
+.checkoutAddress, #checkoutBillto {color: #2e3233 !important;}
+.floatingBox, #checkoutShipto, #checkoutBillto { width:100%; }
+.fecBlockEdit address {
+	font-size: 14px;
+	margin: -5px 0 15px !important;line-height: 22px !important;}
+
+#quickCheckoutContent .button_change_address {
+	background: transparent !important;
+    border: medium none !important;
+    bottom: 21px;
+    border-radius: 0;
+    box-shadow: none;
+    text-decoration: none;
+    color: #3b859e !important;
+    padding: 0 !important;
+    position: absolute;
+    text-indent: -4px;
+    font-size: 14px !important;
+    text-transform: capitalize;
+    width: auto !important;
+    font-weight: normal !important;
+}
+
+#quickCheckoutContent .button_change_address:hover {
+	color: #174d5f !important;
+	text-decoration: none;
+}
+
+.button_confirm,
+#addressBookContainer .button_continue {
+	display: block;
+	margin: 0 auto !important
+}
+
+/* change address pop-up */
+.fancybox-wrap {width: auto !important;}
+.fancybox-skin {background-color: #FFF !important; border: 1px solid #2e3233 !important; padding: 21px !important; width: auto !important;}
+.fancybox-inner {height: auto !important; width: auto !important; position: relative !important;}
+
+.fancybox-inner h1#checkoutPayAddressDefaultHeading,
+.fancybox-inner h1#checkoutShipAddressDefaultHeading {
+	background: none repeat scroll 0 0 transparent !important;
+    box-shadow: none;
+    color: #3b859e !important;
+    font-family: Asap,Helvetica,sans-serif;
+    font-size: 26px !important;
+    padding: 0 !important;
+    font-weight: bold !important;
+
+}
+.addressRadio {display: inline-block; margin: 0 6px 0 0;}
+.fancybox-inner .buttonRow strong {display: inline-block; margin: 0 5px 0 0;}
+.fancybox-inner label {font-size: 14px; line-height: normal; margin-bottom: 9px !important;}
+
+.fancybox-inner #checkoutPayAddressDefault input[type="text"],
+.fancybox-inner #checkoutShipAddressDefault input[type="text"]{
+	width: 358px !important;
+}
+
+.fancybox-inner select {width: 358px !important; height: 30px !important;}
+
+.fancybox-inner #checkoutPayAddressDefault input[type="text"],
+.fancybox-inner #checkoutShipAddressDefault input[type="text"],
+.fancybox-inner #checkoutPayAddressDefault select,
+.fancybox-inner #checkoutShipAddressDefault select {
+	color: #2e3233 !important;
+	border: 1px solid #aab5b9 !important;
+	height: 30px !important;
+	margin: 0 0 12px !important; padding: 0 5px !important;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.fancybox-inner #checkoutPayAddressDefault input[type="text"]:focus,
+.fancybox-inner #checkoutShipAddressDefault input[type="text"]:focus,
+.fancybox-inner #checkoutPayAddressDefault select:focus,
+.fancybox-inner #checkoutShipAddressDefault select:focus {
+	border-color: #2B2921 !important
+}
+
+.fancybox-inner #checkoutPayAddressDefault select,
+.fancybox-inner #checkoutShipAddressDefault select {
+	padding: 5px !important
+}
+
+.fancybox-inner #checkoutPayAddressDefault .alert.required,
+.fancybox-inner #checkoutShipAddressDefault .alert.required  {
+	color: #E02828 !important;
+	position: relative;
+    right: 156px;
+    top: 25px;
+}
+.nextStep, .nextstep {font-size: 14px !important; color: #e7e7e7 !important; line-height: 15px !important;}
+#pmt-paypalwpp, label[for="pmt-paypalwpp"] img {display: inline;}
+label[for="pmt-paypalwpp"] img {margin-left: 4px !important;}
+label[for="pmt-paypalwpp"] span {display: none !important;}
+.blockUI img {vertical-align:middle;}
+.address-wrap {font-size: 14px; color: #CECECE !important; width: 661px;}
+#checkoutNewAddress.newAddressOnly {padding-top: 0; border-top: none;}
+
+.addressEntry {
+	display: inline-block;
+    float: none !important;
+    height: auto !important;
+    margin: 0 27px 21px 0 !important;
+    width: 176px;
+    vertical-align: top;
+}
+.header-notactive {cursor: pointer;}
+
+#addressFields {
+	margin: 0 auto;
+    width: 395px;
+}
+
+/* Password Forgotten */
+#passwordForgotten h1 {
+	color: #3b859e !important;
+    font-size: 30px !important;
+    margin-bottom: 22px !important;
+    font-weight: bold;
+
+}
+.heading-wrapper .required {
+	clear: both;
+    color: #E02828;
+    display: block;
+    font-size: 14px !important;
+    margin-top: -12px;
+    position: relative;
+    text-align: right;
+    top: -28px;
+}
+
+.sub-page-wrapper h1 {
+	float: none !important;
+}
+
+#container-password {
+	background: none repeat scroll 0 0 #E5F2F7;
+    border: 1px solid transparent;
+    border-radius: 8px 8px 8px 8px;
+    display: block;
+    padding: 21px;
+}
+
+	#container-password input[type="text"] {
+		border: 1px solid #aab5b9;
+	    height: 30px;
+	    padding: 0 5px;
+	    width: 200px;
+	    margin-bottom: 0;
+
+	    -webkit-box-sizing: border-box;
+	       -moz-box-sizing: border-box;
+	            box-sizing: border-box;
+	}
+	
+	#container-password label {
+		color: #2e3233;
+	    display: block;
+	    font-size: 14px;
+	    margin: -5px 0 6px;
+	}
+
+	#container-password input[type="text"]:focus {
+		border-color: #F58025
+	}
+
+	#container-password .alert {
+		color: #F58025;
+	    font-size: 14px;
+	    font-weight: bold;
+	}
+	
+	
+
+	#container-password .main {
+		display: none;
+	}
+
+
+/* Right Column */
+#fecRight .cssButton,
+#fecRight .cssButtonHover {
+	background: none;
+	border: none;
+	box-shadow: none;
+	color: #3b859e !important;
+	padding: 0;
+	font-size: 14px !important;
+	width: auto !important;
+	display: inline-block;
+	text-transform: capitalize;
+	font-weight: normal !important;
+}
+
+#fecRight .cssButton.small_edit,
+#fecRight .cssButtonHover.small_editHover {
+	position: relative;
+	top: -3px
+}
+
+#fecRight .cssButtonHover {
+	color: #174d5f !important;
+	text-decoration: none;
+}
+
+.stickem-container-outter {
+	background: #fff;
+	padding: 42px 30px;
+	position: relative;
+}
+.stickit {position: fixed; top: 42px;}
+.stickit-end {bottom: 0; position: absolute; right: 0; left: auto !important;}
+#shoppingBagContainer {padding: 0 15px;}
+
+.shopping-bag-header {
+	border-bottom: none;
+	margin: 6px 0 21px;
+}
+
+h2#shoppingBag {
+	border-bottom: 1px solid #e2e3df !important;
+    color: #2e3233 !important;
+    float: none;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 27px;
+    margin-top: 11px !important;
+    padding-bottom: 6px !important;
+    font-family: Asap, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#shoppingBagContainer .buttonRow.back {width: 49%; float: left !important;}
+#shoppingBagContainer .buttonRow a {text-decoration: none;}
+
+#shoppingBagContainer .editButton {
+	margin-right: -11px !important;
+    margin-top: -37px;
+}
+
+
+
+#orderTotals table {float: right; margin-bottom: 0 !important;}
+#orderTotal {margin: 0 /* 21px/382px */ ;}
+#bagItems {overflow: visible;}
+.product-title-wrapper {
+	display: inline-block;
+    height: auto;
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+    top: 5px;
+    white-space: nowrap;
+    width: 154px;
+}
+.bag-items-expand,
+.bag-items-expand.bag-items-collapse,
+.expand,
+.activate,
+.expandAll,
+.active { 
+	background: url(../../images/shopping-bag-control.png) no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.bag-items-expand,
+.bag-items-expand.bag-items-collapse,
+.expand,
+.activate {
+	width: 12px;
+	height: 12px;
+	margin: 0 0 0 12px;
+	opacity: 1 !important;
+	position: relative;
+}
+
+.bag-items-expand {
+	margin-top: 1px
+}
+
+.bag-items-expand,
+.expand {
+	background-position: 0 0;
+    float: right;
+}
+
+.expand,
+.activate,
+.bag-items-expand,
+.bag-items-collapse {
+	background: none !important;
+	float: left;
+    margin-left: 0;
+    margin-top: 7px;
+	position: relative;
+}
+
+.bag-items-expand,
+.bag-items-collapse {
+	float: right;
+	margin-top: 0
+}
+
+.expand:before,
+.activate:before,
+.bag-items-expand:before,
+.bag-items-collapse:before {
+	border-style: solid;
+	cursor: pointer;
+	content: "";
+	height: 0;
+    position: absolute;
+    right: -4px;
+    top: 2px;
+    width: 0;
+}
+
+.bag-items-expand:before,
+.bag-items-collapse:before {
+	right: 2px
+}
+
+	.expand:before,
+	.bag-items-expand:before {
+		border-width: 8px 4px 0 4px;
+		border-color: #2e3233 transparent transparent transparent;
+	}
+
+	.activate:before,
+	.bag-items-collapse:before {
+		border-color: transparent transparent #2e3233;
+	    border-width: 0 4px 8px;
+	}
+
+	.bag-items-expand:hover,
+	.expand:hover {
+		opacity: .6 !important;
+	}
+
+	.bag-items-expand:hover,
+	.bag-items-expand.bag-items-collapse:hover {opacity: .6 !important; filter: inherit;}
+
+#cartProducts {
+	padding-top: 11px;
+	max-height: none !important;
+}
+
+.product {
+	margin: 10px 0 0 0;
+}
+
+.productTitle {
+	background-color: transparent !important;
+    color: #2e3233 !important;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    height: 27px !important;
+    line-height: 18px !important;
+    margin-left: 30px;
+    padding: 0 0 0 17px;
+    position: relative;
+}
+
+.productTitle:before,
+.productTitle:after {
+	border-left: 1px solid #e2e3df;
+    content: "";
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 1px;
+}
+
+.productTitle:after {
+	left: auto;
+	right: 50px
+}
+
+.bagPrice {
+	display: inline-block;
+	padding-top: 5px;
+	text-align: right;
+}
+
+.bagOption {line-height: 180%; margin: 0 0 15px;}
+.removeProduct {display: block; margin: 0; margin: 15px 0 0 -15px;}
+.expandAll, .active {width: 108px; height: 27px;}
+
+.expandAll:hover, .active:hover {opacity: .65; filter: alpha(opacity=65);}
+.expandAll {background-position: 0 -118px;}
+.active {background-position: 0 -155px;}
+.productDetails{margin-left:79px;}
+
+
+
+
+.backorder .productTitle {background-color: #2e3233 !important; color: #FFF !important;}
+.shoppingBag em {padding: 5px 9px;}
+
+
+#shopBagWrapper {border-top: 1px solid #e2e3df; border-bottom: none; padding: 6px 0 15px; margin: 21px 0 8px;}
+.totalBox {padding-left: 1em !important;}
+.lineTitle, .totalBox {
+	font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+	line-height: 1em; padding-top: 1em !important; vertical-align: top;
+	font-size: 14px !important
+}
+
+
+.lineTitle {padding-left: 0 !Important;text-align:left !important;
+font-size: 14px}
+
+#ottotal .lineTitle,
+#ottotal .totalBox {
+	font-size: 18px;
+    font-weight: bold;
+    color: #2e3233 !important;
+    padding-top: 22px !important
+}
+
+img#no_account_switch { cursor: pointer; }
+
+body {-webkit-text-size-adjust:none;}
+
+#quickCheckout {margin-left: auto; margin-right: auto; position: relative; width: 100%; overflow: visible;}
+
+.paymentModule {margin: 0 auto 21px;}
+
+.centerColumn h1 {margin-bottom:20px;}
+#discountsContainer .boxContents input[type="text"] {background-color: #666 !important; height: 26px; padding: 0 0 0 6px;}
+#quickCheckout textarea { 
+	color: #2e3233 !important;
+	width: 99%; resize: none; float: none;}
+#qc_column22.width50 h2 {margin: 0 0 15px !important;}
+#shippingMethods h3{
+	border-top: none;
+	margin: 20px auto 13px; position: relative; font-weight: 700 !important; text-transform: none !important;}
+
+
+#quickCheckout label.inputLabelPayment {
+	font-size: 14px;
+	padding-left: 25px;
+	margin-top:10px;
+	text-transform: capitalize;
+}
+
+#quickCheckout label.inputLabelPayment a,
+#quickCheckout label.inputLabelPayment u {
+	color: #F58025;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#quickCheckout label.inputLabelPayment a:hover {
+	color: #F58025;	
+}
+
+#quickCheckout .gvBal label { padding-left: 0; }
+#quickCheckout em, #checkoutConfirmDefault em { color:#FF66.600; font-style:normal; font-weight:bold; }
+#quickCheckout #orderTotal sup, .checkboxLabel sup { vertical-align: top; }
+
+
+#quickcheckoutBody #quickCheckout input[type="text"].missing,
+#quickcheckoutBody #quickCheckout input[type="password"].missing,
+#quickCheckout select.missing {
+	border: 1px solid #E02828 !important;
+}
+
+.registrationError {float: right; margin-right: 21px; padding: 0 6px;}
+
+#quickCheckout select.dob {width: auto; margin-right: 5px;}
+
+#quickCheckout .ccinfo {margin-top: 21px;}
+#quickCheckout .ccinfo input {width: 35.32368897% !important;}
+#quickCheckout .ccinfo input#paypaldp-cc-cvv {width: auto !important;}
+ #quickCheckout .ccinfo select, #quickCheckout .discount input { width: auto !important; margin-bottom: 0;}
+#quickCheckout .ccinfo select {padding: 6px 3px !important;}
+#quickCheckout .ccinfo input, #quickCheckout .ccinfo select { margin-left: 0px; }
+#quickCheckout hr, #confidence hr { margin: 20px 0; border-color: #D9D9D9; color: #D9D9D9; border-style: solid none none; border-width: 1px medium medium; clear: both;}
+#column1 hr {margin: 20px 0 20px 20px;}
+
+#shippingField .blockOverlay {opacity: .9 !important; filter: alpha(opacity=95) !important; background-color: #171717 !important;}
+#cartContentsDisplay { margin-bottom: 1em; }
+
+#disc-ot_coupon { margin-left: 2px; margin-bottom: 0; margin-top: 10px !important;}
+
+#messageStackErrors { display: none; margin: 0; }
+.disableJAlert .messageStackWarning, .disableJAlert .messageStackError, .disableJAlert .messageStackSuccess, .disableJAlert .messageStackCaution {display: block; font-size: 1em; text-align: left; margin: 0; padding: 0;}
+input:-webkit-autofill {background-color: #2e3233 !important;}
+#column1 {background: url(../images/quick_checkout/border.gif) repeat-y 33.3% 0;}
+#column2 {background: url(../images/quick_checkout/border.gif) repeat-y 66.6% 0;}
+/*#column12, #hideRegistration {width: 750px; margin: auto;}*/
+
+/* checkout page specific */
+
+#contactDetailsContainer INPUT[type="text"], #contactDetailsContainer INPUT[type="password"] {width: 200px !important;}
+.ccinfo {position: relative;}
+.ccinfo small {position: relative; top: -5px; left: 20px;}
+#shippingMethods {height: auto;}
+
+/* login page specific */ 
+#qc_column11, #qc_column13, #qc_column21, #qc_column23, #qc_column31, #qc_column1b, #qc_column33, #qc_column3b {height: auto; overflow:hidden; padding:0;margin:0;}
+#qc_column1b, #qc_column1b2{float:right; /*clear: left;*/}
+#qc_column3b, #qc_column3b2{float:right; /*clear: right;*/}
+#qc_column11{clear:right;}
+
+#registerColumns{width:66%;}
+#registerColumns2{width:50%;}
+/* columns inside #registerColumns */
+#registerColumns #qc_column21, #registerColumns #qc_column23{width:49%;}
+#registerColumns #qc_column11, #registerColumns #qc_column13{width:50%;}
+#registerColumns2 #qc_column12, #registerColumns2 #qc_column22{width:100%;}
+
+
+#qc_column1 .columnInner, #qc_column12 .columnInner, #qc_column13 .columnInner {margin-left: 0;}
+#qc_column3 .columnInner, #qc_column32 .columnInner, #qc_column22 .columnInner, #qc_column33 .columnInner {margin-right: 0;}
+#passwordField input{width:100%;}
+#emailOptions {margin-top: 5px;}
+#quickCheckout #confidence img {margin: 1em; display: inline; vertical-align: middle;}
+#checkoutFECCheckbox label{display:block; width: auto;}
+#checkoutFECCheckbox input{margin-right:5px;position:relative;top:-1px;vertical-align:middle;}
+#shippingField .blockOverlay {cursor: not-allowed !important;}
+#shippingField .blockMsg{cursor: pointer !important;}
+#paymentMethodContainer img, #shippingMethodContainer img {vertical-align: middle; margin-right: 0;}
+#cartContentsDisplay {margin-top: 1em;}
+.cartProductDisplay { text-align: left; }
+.totalBox, .cartTotalDisplay {width:auto;min-width: 39px; text-align: right}
+.cartTotalDisplay, .cartUnitDisplay {text-align:right;}
+.cartImage{padding: 0 10px;}
+#discountFormdisc-ot_gv .updateButton {margin-top: 0px !important;}
+#discountForm .boxContents {padding-bottom: 21px !important;}
+#discountFormdisc-ot_gv input[name="cot_gv"] {width: 87px; margin: 5px 0;}
+#discountFormdisc-ot_gv  #disc-ot_gv {width: auto !important;}
+#discountFormdisc-ot_gv .gvBalInputs{display: none;}
+.gvBalInputs{width: 100%; margin-top: 5px;} 
+.gvBal { text-align: left; float:none;}
+.gvBal input[type="text"] {margin-bottom: 10px;}
+.gvBal label {font-size: inherit;}
+.fieldRequired { color: #FF0000; }
+.addressContainer{margin: 20px 0 10px;}
+
+.confidenceItem{display: inline; margin: 20px 10px;}
+.showDiscount, .hideDiscount, .showShippingInfo, .hideShippingInfo  {font-size: smaller; cursor: pointer;}
+
+/* hideregistration */
+#hideRegistration {margin-top: 40px !important;}
+#leftColumn {width: 50%; float: left;}
+#rightColumn {width: 50%; float: right;}
+#cowoaLogin{
+	color: #2e3233;
+	text-align: left; margin: 35px 0 0; clear: both; font-size: 13px; line-height: 22px;}
+
+/* stacked layout */
+#checkoutShippingForm, #checkoutPaymentForm{width: 50%; float: left;}
+#checkoutStacked{margin-bottom: 20px;}
+#shippingPaymentColumns{background: url(../images/quick_checkout/border.gif) repeat-y 50% 0;}
+
+
+.clearLeft {clear: left;}
+.rightColumn {position: relative;}
+#qc_column3 {position: relative; top: -401px !important;}
+.priceLabelWrapper {float: left; width: 281px; text-align: right; margin: 0 15px 0 0; text-transform: uppercase; font-weight: 700;} 
+.priceWrapper {float: left; width: 64px; margin: 0 12px 0 0; text-align: right;}
+
+#shipHandling {
+	border-bottom: medium none;
+    border-top: 1px solid #e2e3df;
+    font-size: 14px !important;
+    margin: 5px 0 0;
+    padding: 15px 0 18px;
+    text-align: left;
+    line-height: 22px
+}
+.needHelpWrap {font-size: 14px; padding: 0 0 21px; margin: 0 5.497382%;  display:none;}
+
+.productContainer {font-size: 14px; overflow:auto; padding-top:12px; }
+
+.priceLabel{margin-left:153px;width:147px;}
+.shopPrice{text-align:right;}
+.discountCode,.applySub, .applyAmount{background-color:#2e3233;border:1px solid #e2e3df;color:#FFF;display:block;}
+.discountCode{width:192px;height:18px;line-height:21px;}
+.applyAmount {width: 219px; height: 18px; line-height: 21px;}
+.dcode, .acode {display:block;height:21px;line-height:22px; line-height: 22px !important;}
+.dcode {width: 111px;}
+.acode {width: 84px; font-weight: 500 !important;}
+.applySub{height:22px;width:54px;font-weight:700; margin-left: 11px; text-align: center !important; padding: 0 !important; line-height: 22px !important;-webkit-appearance: none !important;}
+input:hover.applySub{background-color:#FFF;color:#2e3233;}
+.product ul{margin:0 !important;padding:0 !important;}
+.product li:hover{background-color:#5e5e5e;}
+
+.productImage{max-width:66px;max-height:63px;}
+.expTitle{line-height:12px;margin-bottom:9px;}
+.productSize{width:90px;height:21px;background-color:#2e3233;color:#FFF;font-size:12px;margin:6px 0 !important;}
+a.remove{display:block;color:#FFF;}
+a:hover.remove{display:block;color:#c90d14;}
+.show{display:block;}
+.checkContact{margin-top:9px;}
+.overflow{overflow: auto;}
+.appAmount {margin-top: 12px;}
+.productContainer-expand .product-name {margin-bottom: 3px !important;}
+.product-price {color: #A73C3C; font-weight: 700; margin-bottom: 12px;}
+.fecShippingLength .button_confirm {position: absolute; bottom: 30px;}
+
+.shippingMethod {margin-bottom: 11px;}
+.highslide-body form {background-color: #171717; border: 1px solid #313131; padding: 21px; overflow: auto; position: relative;}
+.highslide-body .required {position: absolute; top: 21px; right: 0px;}
+.highslide-body label {font-size: 14px !important;}
+.highslide-body input[type="text"], .highslide-body select {background-color: #666 !important; border: 0 !important; height: 26px; padding: 0 0 0 6px;}
+.highslide-body select {height: auto; padding: 6px 0;}
+
+#fecRight h3, #checkoutNewAddress h2, #addressBook h2 { font-size: 18px; text-transform: uppercase; font-weight: 500 !important;}
+#fecRight h3 {margin: 0 0 18px !important;}
+.centerColumnModule h2, #addressBook h2 {font-size: 18px !important;}
+.centerColumnModule h2 {margin: 0px !important; }
+#addressBook h2,  {margin: 0px !important;}
+#addressBook {font-size: 14px !important; }
+h3#needHelpHead {text-transform: uppercase; margin: 3px 0 12px !important; }
+.showShippingInfo, .hideShippingInfo {width: 66px; height: 22px; text-indent: -9999px; display: block; cursor: pointer;}
+.showShippingInfo {background: url(../images/quick_checkout/details-collapsed.png) no-repeat;}
+.hideShippingInfo {background: url(../images/quick_checkout/details-expanded.png) no-repeat;}
+.fecBlockEdit * h3 {padding-top: 6px;}
+.productTitle em {padding: 0 !important;}
+
+input[name="dc_redeem_code"] {}
+#quickcheckoutBody #quickCheckout .discount label { margin-right: 5px !important; display: block !important; float: left; width: 44.943% !important; font-size: 0.9em /* 11px/12px */;}
+#quickcheckoutBody #quickCheckout .discount input[type="text"] {display: inline-block; margin: 0 12px 0 0 !important; width: 228px !important; background: #666 !important;}
+#quickcheckoutBody #quickCheckout .discount .buttonRow {float: left !important; display: block;}
+#discountsContainer .boxContents {color: #fff !important; margin: 0 0 21px; font-size: 14px !important; background-color: #C82027 !important; padding: 21px; overflow-x: auto !important;}
+label[for="cot_gv"] {display: block !important;}
+#passwordForgotten h2 {display: none;}
+#quickCheckout #fecRight label {width: auto !important;}
+#quickCheckout .width50 label.inputLabel {width: 100% !important;}
+
+
+#qc_column2.fecShippingLength {border-top: 0 !important; padding: 0 !important; margin-top: 0 !important; margin-bottom: 21px !important; border-bottom: 1px solid #e2e3df;}
+.button_back {}
+.button_backHover {}
+#quickCheckout input[type="radio"]#cowoa-radio-on, #quickCheckout input[type="radio"]#cowoa-radio-off, #quickCheckout .shippingMethod input[type="radio"]  {float: left !important;}
+#quickCheckout .shippingMethod input[type="radio"] {position: relative; margin-right: 9px; margin-top: 1px !important;}
+#quickCheckout .shippingMethod input[type="radio"],
+
+#quickCheckout .paymentModule input[type="radio"] {
+	margin-left: 0;
+	position: relative;
+	top: -2px;
+	margin-right: 10px
+}
+#contactDetailsContainer label, #paymentMethodContainer label, #quickCheckout .shippingMethod label {clear: none !important;}
+#quickCheckout .shippingMethod label {margin-left: 0;color: #2e3233;}
+#contactDetailsContainer .radioButtonLabel {
+	margin: 0 18px 0 6px !important; width: 184px !important; color: #3E464E !important;}
+#paymentMethodContainer label {float: none !important; display: inline;}
+.ccinfo label {width: 42.975% !important;}
+.shippingMethod h3 {
+	padding: 0;
+	color: #2e3233 !important
+}
+.showShippingInfo, .hideShippingInfo {position: relative; top: -5px;}
+#quickCheckout .shippingMethod {width: 100%; float: left; font-size: 13px;}
+
+#quickCheckout .shippingMethod .important {
+	padding-top: 1px;
+	color: #2e3233;
+}
+
+#bag-items-label {width: auto;  font-size: 14px;}
+#orderTotals table, #orderTotals tbody {width: 100%;}
+.discount {position: relative;}
+
+.discount .showDiscount,
+.discount .hideDiscount {
+	float: right !important;
+	height: 12px;
+	width: 12px;
+	display: block !important;
+	padding-left: 0px;
+	top: 1px;
+	left: auto;
+	right: 0;
+	text-indent: -9999px;
+	position: relative;
+}
+
+.discount .showDiscount:before,
+.discount .hideDiscount:before {
+	border-style: solid;
+	cursor: pointer;
+	content: "";
+	height: 0;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 0;
+   
+}
+
+.discount .showDiscount:before {
+	border-width: 8px 4px 0 4px;
+	border-color: #2e3233 transparent transparent transparent;
+}
+
+.discount .hideDiscount:before {
+	border-color: transparent transparent #2e3233;
+	border-width: 0 4px 8px;
+}
+
+	.discount .hideDiscount:hover,
+	.discount .showDiscount:hover {
+		opacity: .6;
+	}
+
+#checkoutFECCheckbox label {width: auto !important;}
+.gvBalInputs label, #discountFormot_gv .gvBal label{width: auto !important; line-height: 27px; margin: 0 12px 0 0 !important;}
+#quickcheckoutBody #quickCheckout #fecLeft .gvBal input[type="text"] {margin-bottom: 0 !important; display: block !important; float: left !important; clear: none !important; width: 35.029354% /*179px/511px */ !important}
+#quickcheckoutBody #quickCheckout #fecLeft #discountFormot_gv .gvBal input[type="text"], #quickcheckoutBody #quickCheckout #fecLeft #discountFormot_gv .gvBal label, #quickcheckoutBody #quickCheckout #fecLeft #discountFormot_sc input[type="text"], #quickcheckoutBody #quickCheckout #fecLeft #discountFormot_sc .buttonRow {margin-top: 13px !important;}
+#discountsContainer, #checkoutFECCheckbox {border-bottom: 1px solid #e2e3df;}
+#discountFormot_sc .inputLabel {margin-top: 15px !important; }
+#discountFormot_sc #opt_credit {margin-top: 20px !important;}
+#checkoutFECCheckbox #fec_checkbox {padding-right: 2px;}
+#easyLogin.hiddenField {margin-right: 21px;}
+.productContainer-expand {overflow: auto !important;}
+#quickCheckout p.shippingInfo {color: #FFF !important;}
+
+
+#discountsContainer #discountFormot_gv .boxContents .buttonRow {margin-top: 13px !important;}
+
+.width50 br.clearBoth {display: none;}
+.totalBox {
+	font-size: 14px;
+	padding-right: 0 !important;}
+.registrationError {width: auto !important; margin-right: 12px !important;}
+
+.fancybox-inner .buttonRow {float: none !important;}
+.fancybox-inner .centerColumn {padding-bottom: 0 !important;}
+*:first-child+html .hideShippingInfo,*:first-child+html .showShippingInfo  {top:-28px !important;}
+*:first-child+html #quickCheckout .shippingMethod input[type="radio"] {top:-3px !important;}
+*:first-child+html .productTitle {position:relative;}
+*:first-child+html .productTitle .bagPrice {top:-28px !important;position:relative;}
+#contactDetailsContainer table {width: 80.76225%; display: block;}
+#contactDetailsContainer table tbody, #contactDetailsContainer td { display: block;}
+#contactDetailsContainer input[type="radio"] {clear: both !important; margin:0 0 12px 1px !important;}
+#contactDetailsContainer .cowoaOption label {line-height: normal !important;}
+#contactDetailsContainer table{background-color: #222222 !important; color: #E7E7E7 !important; font-size: 14px !important; padding: 15px 15px 3px !important; -moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+#paymentMethodContainer {position: relative;}
+#paymentMethodContainer #cardsAccepted {display: inline; position: absolute; left: 221px;}
+#paymentMethodContainer #cardsAccepted strong {display: none;}
+.fecBlock#step3 .width50 {max-width: 593px !important; width: 100% !important; overflow: visible !important;}
+#hideregistration_register label {width: 100% !important;}
+#ottotal {font-size: 20px !important;  margin-top: 18px; text-transform: uppercase; color: #2e3233 !important;}
+#cartContentsDisplay, #orderTotals {font-size: 11px !important;}
+#paymentMethodContainer * .messageStackError{background-color: #A73C3C !important; font-size: 11px !important; height: auto;  margin: 0 0 24px !important; padding: 12px !important; text-align: center; line-height: 150% !important; border: 0 !important;}
+#paymentMethodContainer * .messageStackError img {display: none;	}
+ 
+.fancybox-skin {padding: 42px !important;}
+#cartProducts .product:last-child {padding-bottom: 0 !important;}
+
+#expandAllContainer {
+	margin-top: 21px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+#expandAllContainer div {
+	background: #3b859e;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 11px 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: uppercase;
+    width: auto !important;
+}
+
+#expandAllContainer div:hover {
+	background: #174d5f !important;
+	opacity: 1 !important
+}
+
+.radioButtonLabel a {display: block; margin-bottom: 15px;}
+.radioButtonLabel a.disableLink:hover {color: #981010 !important;}
+.discount * .messageStackError {background-color: #981010 !important;} 
+
+.shippingInfo { font-size: 14px;}
+.address-expand, .address-collapse {cursor: pointer;}
+div.address-expand, div.address-collapse {text-indent: -9999px; height: 18px; width: 18px; cursor: pointer;}
+div.address-expand {background: url(../images/quick_checkout/address-expand.png) no-repeat;}
+div.address-collapse {background: url(../images/quick_checkout/address-collapse.png) no-repeat;}
+div.address-expand:hover, div.address-collapse:hover {opacity: .85; filter: alpha(opacity=85);}
+.fancybox-skin h2 {margin: 0 !important;  font-size: 18px; }
+.shippingMethod .shippingInfo {text-align: justify; font-size: 11px;}
+.fancybox-inner {overflow: visible !important;}
+
+.changeAddressFormContainer {
+	background-color: #F2F2F2 !important;
+	box-shadow: none !important;
+	border: 1px solid transparent;
+	border-top: none;
+	padding: 42px 0 42px 42px;
+	color: #2e3233;
+	border-radius: 0 0 10px 10px;
+}
+
+#newAddressContainer {
+	padding-bottom: 21px
+}
+
+.changeAddressFormContainer #addressFields label {
+	color: #2e3233 !important;
+	display: block;
+    font-size: 14px;
+    margin-bottom: 2px !important;
+}
+
+#checkoutNewAddress #state {margin-left: inherit !important;}
+.fancybox-inner .buttonRow { display: block;}
+.fancybox-inner #newAddressContainer .buttonRow,
+.fancybox-inner #addressBookContainer .buttonRow {
+	margin-bottom: 0;
+	margin-top: 10px; padding-right: 0;
+	text-align: center;
+}
+
+#addressBookContainer address {
+	display: block;
+	font-size: 14px;
+	margin: -5px 0 0 27px; line-height: 150%;
+}
+.fancybox-inner .buttonRow.nextstep {display: none !important;}
+.fancybox-inner #passwordForgotten .buttonRow {display: inline !important;}
+
+.address-wrap h2.header-active {
+	background-color: #F2F2F2 !important;
+	border: 1px solid transparent !important;
+	border-bottom: none !important;
+	text-decoration: underline;
+}
+
+.address-wrap h2.header-notactive {
+	background-color: #fff;
+	border:1px solid transparent;
+}
+
+.address-wrap h2 {
+	color: #2e3233;
+	width: 50%;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	border-radius: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.moduleRowSelected {
+	overflow: hidden;
+}
+
+.moduleRowSelected div,
+.moduleRow div {
+	overflow: hidden;
+	display: block;
+	float: none;
+}
+
+	.moduleRowSelected div.addressRadio,
+	.moduleRow div.addressRadio {
+		float: left;
+	}
+
+	.moduleRowSelected div label,
+	.moduleRow div label {
+		font-weight: bold !important;
+		line-height: 130% !important
+	}
+
+
+#bo-em {font-size: 14px !important; font-weight: 500 !important; padding: 6px 9px; background-color: #A73C3C !important; color: #fff !important; margin-top: 24px; display: block; text-transform: uppercase;  font-size: 14px !important; }
+
+.backordered {background-color: #494949; padding-left: 6px;}
+#logo {margin-bottom: 0;}
+.shippingInfo span {display: block; margin-bottom: 10px;}
+
+
+#shopBagWrapper {overflow: auto;}
+#orderTotals table {margin: 0 0 0px !important;}
+#discountsContainer h2 { font-size: 15px !important; text-transform: uppercase !important; font-weight: 500 !important;}
+.gvBalInputs {color: #e7e7e7 !important; width: auto !important; margin: 0 !important; padding: 0 !important;}
+.gvBal .inputLabel {color: #e7e7e7 !important;}
+#disc-ot_coupon {width: 200px !important;}
+#discountsContainer .boxContents label {display: block; margin-bottom: 0px !important; text-transform: capitalize; line-height: 33px;}
+#disc-ot_coupon {margin-top: 0 !important;}
+#vlgc_amount, input[name="cot_gv"] {margin-top: 0 !important;}
+.productContainer img {float: left;}
+.shoppingBag em, #checkoutFECCheckbox .boxContents {font-size: 14px !important; font-weight: 500 !important;}
+#paypaldp-cc-expires-year {margin-left: 9px !important;}
+.addressForm input.missing, .addressForm select.missing {border: 1px solid #C90D14 !important; margin-bottom: 9px !important;}
+/*#cartProducts {display: block !important;}*/
+/* FEAC */
+#navColumnCenter {padding-top: 13px !important;}
+.shippingMethod .shippingInfo {background-color: #222; padding: 21px 24px !important; margin-bottom: 21px !important;}
+.fecBlock a:hover {text-decoration: underline;}
+
+#discountFormot_coupon .boxContents {
+	background: #fff !important;
+	color: #2e3233 !important; 
+	border: 1px solid transparent;
+}
+
+ #quickCheckout #discountFormot_coupon .boxContents p  {
+ 	margin-bottom: 15px !important;
+ 	font-size: 14px;
+ 	line-height: 22px
+ }
+ #quickCheckout #discountFormot_coupon .boxContents p,  #quickCheckout #discountFormot_coupon .boxContents label {
+ 	color: #2e3233 !important;
+	font-size: 14px
+ }
+
+#quickcheckoutBody #quickCheckout .discount label {
+	width: 28% !important;
+	margin-right: 0 !important
+}
+#quickcheckoutBody #quickCheckout #fecLeft .gvBal input[type="text"] {
+	border: 1px solid #aab5b9 !important;
+	width: 32% !important;
+	height: 35px !important
+}
+
+.fecShippingName, .fecBillingName {text-transform: uppercase; font-weight: 700;;}
+.fecBlock * h2 {letter-spacing: 0 !important; }
+
+#column1, #column2 {background: none !important;}
+
+#quickCheckoutContent #qc_column3 {float: right; overflow: visible; position: relative; top: -91px; font-size: 14px !important;}
+#quickCheckoutContent #qc_column3 h2 {letter-spacing: 0 !important;}
+#qc_column3.width33 {width: 372px !important;}
+#quickCheckoutContent #qc_column3 input[type="text"] {border: 1px solid #e2e3df;}
+
+#quickCheckoutContent #recaptcha {margin: 0 0 21px 0 !important; border-bottom: 1px solid #2e3233; padding: 0 0 21px;}
+#checkoutFECCheckbox, #orderComments, #discountsContainer {margin: 0 21px 21px !important;}
+#checkoutFECCheckbox, #discountsContainer {overflow: auto;}
+#discountsContainer {padding: 0px 0 5px !important;}
+#paymentModules {border-bottom: 1px solid #e2e3df !important; padding-bottom: 0px !important; margin-bottom: 21px !important;}
+#checkoutFECCheckbox {padding: 0 0 21px !important;}
+#quickcheckoutBody #quickCheckout SELECT.productSize {margin: 6px 0 !important;}
+#shippingMethods h3 {
+	
+	font-size: 14px !important; font-weight: bold !important; text-transform: capitalize !important; 
+	color: #2e3233 !important
+}
+.stickit {top: 24px;}
+#emailOptions {display: none !important;}
+
+.shippingMethod .checkboxLabel {margin-bottom: 15px !important; display: inline-block;}
+
+#quickcheckoutBody .discount .cssButton,
+#quickcheckoutBody .discount .cssButtonHover {
+	padding-bottom: 9px !important;
+	padding-top: 10px !important;
+	padding-left: 11px !important;
+	padding-right: 11px !important;
+}
+
+#passwordForgotten input[type="submit"],
+#passwordForgotten input[type="submit"]:hover {
+	background: #3b859e;
+	color: #fff;
+	border-color: #3b859e;
+	padding: 4px 15px !important;
+	height: auto !important;
+	font-size: 14px !important;
+}
+
+#passwordForgotten input[type="submit"]:hover {
+	background: #174d5f
+}
+
+#passwordForgotten input[type="text"] {
+	height: 33px !important;
+	padding: 0 6px !important
+}
+
+@media only screen and (max-width: 1038px) {
+  #quickCheckoutContent #secureCheckout {
+  	 	padding-left: 0 !important;
+  }
+
+  .fecBlockEdit {
+  	padding-left: 15px;
+  	padding-right: 15px
+  }
+
+.fecBlock .width33,
+#checkoutFECCheckbox,
+#orderComments,
+#discountsContainer {
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+	width: auto !important;
+	float: none;
+}
+
+
+  #fecRight {display: none;}
+  #fecLeft {width: 100% !important; max-width: none !important; margin-right: 0;}  
+  #quickcheckoutBody #quickCheckout #fecLeft input[type="text"], #quickcheckoutBody #quickCheckout #fecLeft input[type="password"], #quickcheckoutBody #quickCheckout #fecLeft select {
+  	height: 30px !important;
+  }
+  #quickcheckoutBody #quickCheckout #fecLeft select  {height: 30px !important; padding: 6px 6px 6px 3px !important;}
+  .width50 label {width: 100% !important;}
+  .fancybox-skin {padding: 7.342657342657% !important; }
+  #passwordForgotten h1 {width: 100%;}
+  .fancybox-skin {height: auto !important;}
+  #passwordForgotten form, .accountWrapper {width: 100%; text-align: left;}
+  #passwordForgotten p {width: 100% !important; font-size: .75em; text-align: justify;}
+  .fancybox-wrap  {width: 80% !important; height: auto !important;}
+  #passwordForgotten input[type="text"] {width: 52% !important; }
+  #quickCheckout select {width: 37.694% !important;}
+  #contactDetailsContainer INPUT[type="text"], #contactDetailsContainer INPUT[type="password"] {width: 36.2976% !important;}
+  #requiredText {margin: 0 !important; float: right;}
+  .alert.validation {margin: 0 0 12px 39.1053% !important;}
+  #paymentMethodContainer #cardsAccepted {left: 45.605% !important;}
+
+	.stickem-container-outter {
+		padding: 30px 15px 30px;
+		overflow: hidden;
+	}
+
+}
+@media only screen and (max-width: 865px) {
+	#paymentMethodContainer #cardsAccepted {left: 46.205% !important;}
+}
+@media only screen and (max-width: 767px) {
+	.width50 .buttonRow {float: none !important; display: block !important;}
+	.width50 .buttonRow input {width: 100%; height: auto !important; line-height: 36px !important; padding: 0 !important; }
+	#forgottenPasswordLink {margin-left: 0 !important;}
+	#quickCheckout select {width: 38.294% !important;}
+
+}
+
+@media only screen and (max-width: 610px) {
+	#submitButtonContainer {margin: 0 15px;}
+	#quickCheckoutContent #secureCheckout, .orderSteps {float: none !important;}
+	
+	.orderSteps {
+		margin: 0;
+		position: static;
+		overflow: hidden;
+		background: #fff;
+		padding: 0 0 21px 0;
+	}
+
+	.fecBlock .width50 {width: 100% !important; float: none !important;}
+	#quickcheckoutBody #quickCheckout #fecLeft input[type="text"], #quickcheckoutBody #quickCheckout #fecLeft input[type="password"], #quickcheckoutBody #quickCheckout #fecLeft select {width: 100% !important; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; height: 30px !important; max-width: none}
+	.fecBlock #qc_column22 {border-top: 1px solid #e2e3df !important; border-left: none !important; padding-top: 30px; padding-bottom: 30px;}
+	.fecBlock #qc_column12 {border-right: none !important;}
+	#column22 {padding-bottom: 0 !important;}
+	.fecBlock {padding-bottom: 0 !important;}
+	 #passwordForgotten input[type="text"] {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; height: 36px !important; height: 36px; display: block; margin: 12px 0 !important; width: 100% !important;}
+	 #passwordForgotten .buttonRow {float: none !important; display: block !important;}
+	 #passwordForgotten .buttonRow input {width: 100%; height: 36px !important; line-height: 36px !important; padding: 0 !important; }
+	#billingAddressContainer .addressForm label, #shippingAddressContainer .addressForm label, #contactDetailsContainer .addressForm label, .addressForm input, .addressForm select, #quickCheckout select {width: 100% !important;}
+	#quickcheckoutBody #quickCheckout #fecLeft select {padding: 10px 10px 10px 3px !important;}
+	.alert.validation {margin-left: 0 !important;}
+	#contactDetailsContainer table, #contactDetailsContainer INPUT[type="text"], #contactDetailsContainer INPUT[type="password"] {width: 100% !important;}
+	#registerButton {margin-bottom: 24px !important; overflow: visible;}
+	#registerButton .buttonRow {float: none !important;}
+	#registerButton .buttonRow input {margin-bottom: 12px !important;}
+	#registerButton .buttonRow input, #registerButton .buttonRow a span {width: 100% !important; height: 28px !important; line-height: 15px !important; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+	#registerButton .registrationError  {float: none !important; margin: 12px 0 0 !important; width: 100% !important; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; height: 36px !important; line-height: 36px !important;}
+	.loginError, .registrationError {width: 100% !important; padding: 1px !important; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+	#paymentMethodContainer #cardsAccepted {position: static !important; margin: 12px 0 0 25px !important; display: block !important; }
+	.ccinfo label {width: 100% !important; float: none !important; display: block !important;}
+	#quickCheckout .ccinfo input {width: 63% !important;}
+	.ccinfo input, .ccinfo select, #paypaldp-cc-expires-year {margin-left: 25px !important;}
+	.ccinfo small {display: block; margin-left: 5px;}
+	#quickcheckoutBody #quickCheckout .discount label {width: 100% !important;}
+	#quickcheckoutBody #quickCheckout #fecLeft .gvBal input[type="text"] {width: 100% !important;}
+	#quickcheckoutBody #quickCheckout #fecLeft .gvBal input[type="text"] {height: 33px !important; margin-bottom: 9px !important;}
+	#quickcheckoutBody #quickCheckout #fecLeft .gvBal .cssButton, #quickcheckoutBody #quickCheckout #fecLeft .gvBal .cssButtonHover {height: auto !important; line-height: normal !important; width: 100% !important; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+	
+	#quickcheckoutBody #quickCheckout .discount .buttonRow {
+		
+	
+
+		display: inline-block;
+		float: none !important;
+		width: 100% !important;
+		margin: 12px 0 0 !important;
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+
+	}
+
+		
+
+	#submitButtonContainer {margin-bottom: 24px !important;}
+	.fecBlockEdit ul li {width: 100% !important; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+	.fecBlockEdit ul li:last-child {
+		border-top: #e2e3df 1px solid !important; padding-top: 30px !important; margin-top: 30px !important;}
+	#quickCheckoutContent .button_change_address {
+		text-align: left;
+		position: static !important; bottom: 0 !important;}
+	.shippingMethod label {width: 46.105% !important;}
+	#quickCheckoutContent input.cssButton, #quickCheckoutContent input.cssButtonHover, .fancybox-skin input.cssButton, .fancybox-skin input.cssButtonHover {width: 100% !important; height: 31px !important; line-height: 19px !important; }
+
+	#forgottenPasswordLink {
+		position: static;
+		top: 0;
+		margin: 18px 0 0 0;
+	}
+
+		#forgottenPasswordLink a {
+			font-size: 14px
+		}
+
+	#quickCheckout #easyLogin label.checkboxLabel {width: 45% !important; line-height: 138%;}
+	#newsletter-checkbox {width: auto !important;}
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {font-size: 18px !important;}
+	#quickCheckout h2.fecHead, .fecHead a, .fecHead a:link, .fecHead a:hover, .fecHead a:active, .fecHead a:visited {font-size: 14px !important; text-transform: capitalize !important;}
+	#quickCheckout h2.fecHead {padding: 0 12px !important;}
+	.orderStep span {font-size: 15px; line-height: 26px; padding: 0 !important;}
+	#quickCheckout .ccinfo input {width: 80% !important;}
+	.discount .showDiscount, .discount .hideDiscount {left: 0; top: 5px; position: relative;}
+	#registerButton .registrationError {height: auto !important; line-height: 150% !important; padding: 9px !important;}
+	.cowoaOption {overflow: auto;}
+}

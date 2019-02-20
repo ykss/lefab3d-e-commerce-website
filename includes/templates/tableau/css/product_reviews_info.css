@@ -1,0 +1,252 @@
+body[id*="productreviews"] #navBreadCrumb {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.review {
+	overflow: hidden;
+}
+
+	.review > .col {
+		overflow: hidden;
+	}
+
+	.review > .col:first-child {
+		float: left;
+		max-width: 240px;
+		width: 24.877301% /* 390px/978px */;
+		margin-right: 4%;
+		
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	
+	/* image */
+	#productMainImage {
+		display: table;
+		margin-bottom: 24px;
+		max-width: 240px;
+		width: 100%;
+		position: relative;
+	}
+
+		#productMainImage a {
+			border: 1px solid #e2e3df;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			position: relative;
+			height: 240px;
+			padding: 21px;
+			width: 100%;
+
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+		}
+
+		#productMainImage .imgLink {
+			display: none;
+		}
+
+	/* links */
+	.links {
+		/*border-top: 1px solid #e2e3df;
+		padding: 21px 0 0 0;*/
+	}
+
+		.links .button_sold_out_sm {
+			display: block;
+			color: #E02828;
+			font-size: 14px;
+			margin-bottom: 8px
+		}
+
+		.links a {
+			color: #3b859e;
+			font-size: 14px;
+			display: block;
+		}
+
+		.links a + a {
+			margin-top: 8px
+		}
+
+		.links a:hover {
+			color: #174d5f
+		}
+
+	/* product info */
+
+		/* title */
+		body[id*="productreviews"] .review h1 {
+			border: none;
+			color: #2E3233;
+			font-size: 20px;
+			margin: 0 0 20px;
+			padding: 0;
+			text-transform: none;
+		}
+		
+		/* prices */
+		body[id*="productreviews"] .review h2 {
+			color: #2e3233;
+			font-size: 18px;
+			font-weight: bold;
+		}
+			
+			body[id*="productreviews"] .review h2 br {
+				display: none;
+			}
+
+			body[id*="productreviews"] .review h2 span {
+				color: #515b5e;
+				display: inline-block;
+				font-size: 18px;
+				font-weight: normal;
+				margin: 0 0 0 11px;
+			}
+
+			body[id*="productreviews"] .review h2 span:first-child {
+				margin-left: 0;
+			}
+
+			body[id*="productreviews"] .review h2 .normalprice {
+				color: #515b5e;
+				text-decoration: line-through;
+			}
+
+			body[id*="productreviews"] .review h2 .productSpecialPrice,
+			body[id*="productreviews"] .review h2 .productSpecialPriceSale {
+				color: #3b859e;
+				font-size: 18px;
+				font-weight: bold;
+			}
+
+			body[id*="productreviews"] .review h2 .productPriceDiscount {
+				font-size: 12px
+			}
+
+				body[id*="productreviews"] .review h2 span span {
+					color: #585d50;
+					display: inline-block;
+					font-size: 12px;
+					margin-bottom: 0;
+					padding-right: 16px;
+					text-align: right;
+					width: 60px
+				}
+
+				body[id*="productreviews"] .review h2 .norm span {
+					padding-right: 15px
+				}
+
+	#reviewsWriteRating {
+		/*font-size: 14px;
+		margin: 21px 0;*/
+	}
+
+		#reviewsWriteRating span {
+			font-weight: bold;
+		}
+
+	/* review */
+	.user-comment .comment {
+		background: #f2f2f2;
+		border: 1px solid #E9E9E9;
+		box-shadow: 1px 1px 3px #ccc;
+		padding: 21px;
+		font-size: 14px;
+		line-height: 21px;
+		position: relative;
+		margin-top: 21px
+	}
+
+	.user-comment .comment:after,
+	.user-comment .comment:before {
+		top: 100%;
+		left: 9%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+
+	.user-comment .comment:after {
+		border-color: rgba(242, 242, 242, 0);
+		border-top-color: #f2f2f2;
+		border-width: 10px;
+		margin-left: -10px;
+	}
+	.user-comment .comment:before {
+		border-color: rgba(233, 233, 233, 0);
+		border-top-color: #E9E9E9;
+		border-width: 11px;
+		margin-left: -11px;
+	}
+
+	.user-comment .user {
+		font-size: 14px;
+		line-height: normal;
+		margin-bottom: 15px;
+	}
+
+		.user span {
+			display: block;
+		}
+
+		.user .user-name {
+			font-weight: bold;
+		}
+		
+		#reviewsWriteRating {
+			margin-bottom: 8px
+		}
+
+		.user span + span {
+			margin-top: 6px 
+		}
+
+@media screen and (max-width: 768px) {
+	.review > .col,
+	.review > .col:first-child {
+		float: none;
+		margin: 0 auto;
+		max-width: none;
+		width: auto;
+	}
+
+	.review > .col:first-child {
+		margin-bottom: 24px;
+	}
+
+	#productMainImage {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	body[id*="productreviews"] .review h1 {
+		font-size: 20px !important
+	}
+
+	.links a + a {
+		margin-top: 11px
+	}
+}
+
+
+
+		
+
+
+
+
+
+
+
+
+
+

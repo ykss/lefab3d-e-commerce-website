@@ -1,0 +1,253 @@
+/* Main Wrapper */
+#loginDefault {font-size: 14px;padding-top: 0;}
+
+#loginDefault .advisory {
+	display: none;
+}
+
+/* Error Message */
+.messageStackError + h1 + .message-required {
+	top: 86px
+}
+
+#loginDefault .messageStackError:first-child,
+#loginDefault .messageStackSuccess:first-child {
+	margin-top: -4px !important
+}
+
+/* Error Message */
+div[class*="messageStack"] {margin: 0 !important;}
+
+/* Columns */
+.split-mode #login,
+.split-mode #register {width: 50%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; position: relative; margin: 0 0 30px; padding-top: 10px;}
+.split-mode #login {padding-right: 4%; border-right: 1px solid #e2e3df;}
+.split-mode #register {padding-left: 4%; border-left: 1px solid #e2e3df; left: -1px;}
+
+div[class*="messageStack"] + .no-split-mode,
+div[class*="messageStack"] + .split-mode {
+	margin-top: 36px
+}
+
+/* Headers */
+#login h2, #register h2 {
+	color: #2e3233;
+	font-size: 19px; text-transform: none; margin: 0 0 30px; font-weight: 700;}
+
+/* Labels and Inputs */
+#loginDefault .inputLabel {
+	display: block;
+	font-size: 14px;
+	margin: 0 0 9px;
+	color: #2e3233;
+}
+#loginDefault input[type="text"],
+#loginDefault input[type="password"],
+#loginDefault select {
+	width: 100%;
+	border: 1px solid #ccc; height: 33px; margin: 0 0 21px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	        padding: 0 5px;
+
+	max-width: 246px
+}
+
+/* Register Column */
+#register .information {margin: 0 0 30px; line-height: 180%; color: #2e3233;}
+
+/* CSS Buttons */
+#loginDefault .cssButton,
+#loginDefault .cssButtonHover {background: #3b859e; color: #FFF; border: 0; padding: 8px 13px 9px 14px; text-transform: uppercase; font-size: 14px; width: auto !important; border: 1px solid #3b859e; margin: 9px 0 0 0; font-weight: bold}
+#loginDefault .cssButtonHover,
+#loginDefault .cssButton:focus {background: #174d5f; color: #fff; cursor: pointer;}
+
+/* firefox */
+@-moz-document url-prefix() {
+	#loginDefault .cssButton,
+	#loginDefault .cssButtonHover {
+		padding: 7px 10px 7px 11px !important	
+	}
+}
+
+#login .important {
+	line-height: 56px;
+	margin: 0 0 0 24px;
+}
+
+#login .important a {
+	color: #3b859e;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+	#login .important a:hover {
+		color: #174d5f;
+		text-decoration: underline;
+	}
+
+/* create account - when split mode is not active */
+
+	/* Columns */
+	.no-split-mode #register {
+		border-top: 1px solid #e2e3df;
+		margin-top: 21px;
+		padding-top: 35px;	
+	}
+
+	.col-left, .col-right{
+		width:50%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.col-left {float: left;border-right: 1px solid #e2e3df;padding-right: 4%;}
+	.col-right {float: right;padding-left: 5%;}
+	
+	/* Containers */
+	#register .login-details-wrapper {border: none; padding: 5px 0 15px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 13px;}
+	#register .login-details-wrapper h2 {
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	#privacy-conditions {
+		margin-top: 10px
+	}
+
+	/* Labels & Inputs */
+	#register input[type="text"] + .alert,
+	#register input[type="password"] + .alert,
+	#register select + .alert,
+	#register label .alert,
+	#register label + .alert {
+		position: relative;
+		top: 4px;
+		color: #E02828;
+		left: 3px;
+		font-size: 16px
+	}
+
+	#register input[type="text"],
+	#register input[type="password"],
+	#register select {
+		margin-right: 5px
+	}
+
+	#register label .alert {
+		position: static;
+		font-size: 14px
+	}
+
+	#register select + .alert {
+		left: 3px
+	}
+
+	#register label.inputLabel.hiddenField {display: none;}
+
+	#register .radioButtonLabel,
+	#register .checkboxLabel {padding: 0 30px 0 9px;font-size: 14px;position: relative;top: 2px;}
+
+	/* gender */
+	#register .field-gender {
+		margin-bottom: 18px
+	}
+
+	/* Communication Preferences */
+	#subscribe-wrapper {margin: 0 0 20px;}
+
+	/* privacy */
+	#privacy-conditions .information {
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 15px
+	}
+
+		#privacy-conditions .information a {
+			color: #3b859e;
+		}
+
+		#privacy-conditions .information a:hover {
+			color: #174d5f;
+		}
+
+	/* referral */
+	#customer-referral {
+		margin-top: 15px;
+	}
+
+@media only screen and (max-width: 640px) {
+	
+	.split-mode #login,
+	.split-mode #register {
+		width: 100%;
+		padding: 0 !important;
+		border: 0 !important;
+	}
+
+	.split-mode #login {
+		border-bottom: 1px solid #e2e3df !important;
+		padding-bottom: 30px !important;
+	}
+	
+	.split-mode #register {
+		margin-top: 0 !important;
+	}
+	
+	#loginDefault input[type="text"],
+	#loginDefault input[type="password"],
+	#loginDefault select {
+		width: 97% !important;
+		max-width: none;
+	}
+	
+	#loginDefault .buttonRow {
+		float: none;
+		width: 100%;
+	}
+	
+	#loginDefault .cssButton,
+	#loginDefault .cssButtonHover {
+		width: 97% !important;
+	}
+	
+	#login .important {
+		margin: 30px 0 0 !important;
+		line-height: normal
+	}
+
+	/* no split mode */
+	.col-left,
+	.col-right {
+		width: 100%;
+		float: none;
+		border: none;
+		padding: 0;
+	}
+
+	.col-left {
+		border-bottom: 1px solid #e2e3df;
+		padding-bottom: 10px
+	}
+
+	.col-right {
+		padding-top: 30px;
+	}
+
+	.no-split-mode #register {
+		margin-top: 30px;
+		padding-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 560px) {
+	
+	#loginDefault input[type="text"],
+	#loginDefault input[type="password"],
+	#loginDefault select {
+		width: 95%;
+	}
+}	

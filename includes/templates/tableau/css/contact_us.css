@@ -1,0 +1,151 @@
+/* Header */
+
+/* Contact Form Wrapper */
+#contact-form-wrapper {width: 71.681391% /* 703px/978px */; background: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; padding: 0 42px 0 0; position: relative; border-right: 1px solid #e2e3df; clear: left; min-height: 206px;}
+#contact-col-left, #contact-col-right {width: 50%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+#contact-col-left {padding: 0 21px 0 0; border-right: 1px solid #fff; position: relative; left: 1px;}
+#contact-col-right {padding: 0 0 0 21px; border-left: 1px solid #fff; position: relative; right: 1px;}
+.contact-us-intro {
+	font-size: 14px;
+	margin: 0 0 30px;
+}
+
+/*
+ *  Code included on: May 26, 2014;
+ * 	Fixed issue: Layout for success message;
+ *
+ * 	In this part of the code we fix the message
+*/
+
+/* success */
+#contact-form-wrapper { font-size: 14px; }
+#contact-form-wrapper p { margin-bottom: 9px; }
+
+/*
+ *  End Code included on: May 26, 2014;
+*/
+
+/* Input and Labels */
+#contact-form-wrapper label, #contact-form-wrapper input[type="text"], #contact-form-wrapper textarea {display: block;}
+#contact-form-wrapper label { color: #2e3233; font-size: 0.875em /* 14px/16px */; font-weight: normal; padding: 0 0 9px;}
+#contact-col-left input[type="text"], #contact-col-left select {margin: 0 0 15px; height: 33px; padding: 0 5px;}
+#contact-col-left input[type="text"]:last-child {margin: 0;}
+#contact-form-wrapper input[type="text"], #contact-form-wrapper textarea, #contact-form-wrapper select {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; width: 100%; padding: 0 5px;}
+#contact-form-wrapper textarea {height: 175px; resize: none; padding: 6px;}
+
+/* Required Information */
+#required-information {margin: 1px 0 0; line-height: 30px; font-size: 14px; color: #E02828;}
+label .alert {
+	color: #E02828;
+}
+
+#contactUsDefault form input:first-child + .messageStackError {
+	position: relative;
+	top: -4px;
+	margin-bottom: 9px;
+}
+
+.messageStackError + #contact-form-wrapper,
+.messageStackError + #contact-form-wrapper + #store-details-wrapper {
+	margin-top: 17px
+}
+
+/* Button */
+#contact-form-wrapper .buttonRow {
+	clear: both;
+	margin: 21px 0 0;}
+
+/*
+ *  Code changed on: May 26, 2014;
+ * 	Fixed issue: Layout for success message;
+ *
+ * 	In this part of the we style the "Back" button
+*/
+#contact-form-wrapper .buttonRow input,
+#contact-form-wrapper .buttonRow a { display: inline-block; width: auto !important; padding: 9px 15px; text-transform: uppercase; font-size: 14px; border: 0; background: #3b859e; color: #fff; margin: 0; font-weight: bold; text-decoration: none;}
+
+@-moz-document url-prefix() {
+	#contact-form-wrapper .buttonRow input {
+		padding: 8px 12px 9px;
+	}
+}
+
+#contact-form-wrapper .buttonRow input:hover,
+#contact-form-wrapper .buttonRow input:focus,
+#contact-form-wrapper .buttonRow a:hover,
+#contact-form-wrapper .buttonRow a:focus {cursor: pointer; background: #174d5f; color: #FFF;}
+
+/*
+ *  End Code changed on: May 26, 2014;
+*/
+
+/* Store Details */
+#store-details-wrapper {position: relative;}
+.contact-info {font-size: 14px; margin: 0 0 30px; line-height: 150%; color: #2e3233;}
+.contact-info strong {font-weight: 700;}
+.contact-icon {font-family: 'Contact'; font-size: 1.125em /* 18px/16px */; width: 36px; position: relative; top: 1px; color: #3b859e;}
+
+@media only screen and (max-width: 978px) {
+	
+	#contact-form-wrapper {
+		float: none;
+		border-right: 0;
+		border-bottom: 1px solid #e2e3df;
+		min-height: 1px;
+		width: auto;
+		overflow: hidden;
+		padding: 0 0 30px;
+	}
+
+	#store-details-wrapper.forward {
+		float: none;
+		margin: 30px 0 0;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#contact-col-left.back,
+	#contact-col-right.forward {
+		float: none;
+		width: auto;
+		margin: 0;
+		padding: 0;	
+		border: 0;
+	}
+
+	#contact-col-right.forward {
+		padding-left: 1px
+	}
+	
+	#contact-col-left input[type="text"]:last-child {
+		margin: 0 0 15px;
+	}
+
+	#contact-form-wrapper input[type="text"],
+	#contact-form-wrapper textarea {
+		width: 99%;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#required-information {
+		float: none;
+		clear: left;
+		position: relative;
+		top: -30px;
+	}
+	
+	#contact-form-wrapper .buttonRow.forward {
+		float: none;
+		width: 100%;
+	}
+	
+	#contact-form-wrapper .buttonRow input {
+		width: 100% !important;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	
+}

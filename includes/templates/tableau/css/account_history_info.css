@@ -1,0 +1,386 @@
+/*
+	Edited by: Cyro Morais
+	Version: 1.0
+
+	Css file for the acccount history info page.
+*/
+strong {
+	display: inline-block;
+	font-weight: bold;
+	text-transform: none;
+	width: auto;
+}
+
+.details-infos strong {
+	color: #2e3233;
+	float: left;
+	font-size: 14px;
+	margin-left: -163px;
+}
+
+.account-full-width .order-title,
+#order-status-wrapper h2 {
+	color: #2e3233;
+	height: auto;
+	line-height: normal;
+	padding: 0;
+	background: none;
+	text-transform: none;
+	display: block;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.account-full-width .order-title,
+#order-status-wrapper h2 {
+	margin-bottom: 29px;
+}
+
+/* Wrappers */
+#account-content .account-full-width {
+	background: none;
+	border: none;
+	padding: 0 !important;
+	border-top: none;
+	margin: 27px 0 0;
+	text-align: left;
+}
+
+#account-content #order-status-wrapper {
+	padding: 0 0 0 !important;
+	margin: 42px 0 0 0;
+
+}
+
+.details-infos {
+	padding: 0;
+	border: 0;
+	background: 0;
+	margin-bottom: 30px;	
+}
+
+	
+
+	.order-details {
+		line-height: 18px;
+	    margin: 11px 0 0;
+	    padding: 0 0 0 163px;
+	    font-size: 14px;
+	    color: #2e3233;
+	}
+	
+	.details-infos .order-details:first-child {
+		margin-top: 0
+	}
+
+
+/* Order Date Table */
+.table-infos {
+	background: #fff;
+	border-top: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#order-status-wrapper .table-infos {
+	border-top: none;
+	margin-top: 0;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+#myAccountOrdersStatus {
+	width: 100%;
+}
+
+.table-infos:before {
+	background: #9bbdcd;
+	content: "";
+	height: 1px;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	top: 34px;
+	display: none;
+}
+
+.table-infos th {
+	background: #2e3233;
+    border: 0 none;
+    color: #e2e3df;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e3df;
+    border-top: 1px solid #e2e3df;
+}
+
+.table-infos td {
+	border-top: 1px solid #dbdbdb;
+	color: #2E3248;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 21px 15px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.tableHeading + tr td {
+	border-top: none;
+}
+
+.write-review-btn a {
+	color: #CC430D;
+	text-transform: uppercase; font-size: 13px;
+	text-decoration: none;
+}
+
+.write-review-btn a:hover {
+	color: #E86128;
+}
+
+.table-infos td.write-review-btn {
+	width: 26.789%; /* 262px/978px */
+}
+
+.table-infos td.info-product-image {
+	padding-right: 0;
+	width: 12%; /* 150px/978px */
+}
+
+	.table-infos td.info-product-image span {
+		border: none;
+		padding: 6px;
+		display: inline-block;
+	}
+
+		.table-infos td.info-product-image span img {
+			height: auto;
+			max-height: 108px;
+			max-width: 108px;
+			width: auto;
+		}
+
+.table-infos td.product-item {
+	padding-left: 21px;
+	width: 39.877300613497%; /* 390px/978px */
+}
+
+.table-infos .product-total {
+	padding-right: 15px;
+	text-align: right !important;
+}
+
+.info-product-image img {
+	border: 1px solid #FFF;
+	height: auto;
+	max-height: 83px;
+	width: auto;
+}
+
+#orderTotals {
+	border-bottom: 1px solid #dbdbdb;
+	padding: 0;
+}
+
+.order-total-container {
+	border-top: 1px solid #e2e3df;
+	color: #2E3248;
+	font-size: 14px;
+	margin: 0;
+	overflow: hidden;
+	padding: 20px 15px 19px;
+}
+
+#orderTotals .order-total-container:last-child {
+	border-bottom: 0 !important;
+}
+
+.order-total-wrapper .amount {
+	text-align: right;
+	width: 116px;
+}
+
+#total-price {
+	color: #2E3248;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Order Status */
+#order-status-wrapper {margin: 30px 0 0; padding: 21px 0 !important;}
+
+.history-date {
+	width: 19.417178%; /* 141px/978px */
+}
+
+.history-status {
+	width: 21.644172%; /* 153px/978px */
+}
+
+.orderAttribsList li {
+	color: #979696;
+	font-size: 12px
+}
+
+	.orderAttribsList li strong {
+		text-transform: capitalize;
+		font-weight: normal;
+	}
+
+.product-item .qty {
+	text-indent: -3px
+}
+
+.product-item .product-title-brand {
+	display: block;
+	color: #2e3233;
+	padding-bottom: 2px;
+	font-size: 14px;
+}
+
+	.product-item .product-title-brand strong {
+		text-transform: uppercase;
+	}
+
+@media only screen and (max-width: 875px) {
+	.details-infos {
+		padding: 18px 15px 21px
+	}
+
+	.table-infos td.info-product-image {
+		padding-left: 0;
+	}
+
+	.table-infos td.product-total,
+	th.product-total {
+		padding-right: 15px
+	}
+
+	.table-infos {
+		padding: 0;
+		border-top: 1px solid #dbdbdb;
+	}
+
+	.table-infos:before {
+		display: none;
+	}
+
+	.tableHeading {display: none;}
+	
+	.product-item,
+	.write-review-btn,
+	.product-total {
+		display: block;
+		float: right;
+		width: 100% !important;
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	#order-status-wrapper table td {
+		
+	}
+
+	.product-item,
+	.write-review-btn {
+		border-bottom: none !important;
+	}
+	
+	.table-infos td.product-total {
+		text-align: left !important;
+	}
+	
+	td.write-review-btn {
+		padding: 0 21px !important;
+	}
+	
+	td.info-product-image {
+		padding-right: 0 !important;
+	}
+	
+		td.info-product-image img {
+			max-height: 60px !important;
+			width: auto;
+		}
+
+	#order-status-wrapper h2 {
+		border-bottom: none;
+		position: relative;
+		z-index: 2;
+	}
+
+	.table-infos td.product-total, th.product-total {
+		padding-left: 21px;
+		border: none;
+		padding-top: 0;
+	}
+
+	.table-infos th,
+	.order-total-container,
+	#order-status-wrapper table th,
+	#order-status-wrapper table td {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.details-infos strong {
+		display: block;
+		float: none;
+		margin-left: 0;
+	}
+
+	.order-details {
+		line-height: 22px
+	}
+
+	.account-full-width {
+		font-size: 12px !important;
+		line-height: 150%;
+	}
+
+	.account-full-width strong {
+		display: block;
+	}
+	
+	.order-total-wrapper .amount {
+		float: right;
+		text-align: right;
+		width: 81px !important;
+	}
+	
+	#orderTotals {
+		padding: 0 !important;
+	}
+	
+	.order-total-container {
+		padding: 18px 0 18px 0 !important;
+	}
+	
+	.lineTitle {
+		width: 60%;
+	}
+	
+	.order-total-wrapper {
+		width: 100%;
+	}
+	
+	.account-full-width {
+		padding-top: 21px !important
+	}
+
+	.order-details {
+		padding: 0
+	}
+
+	
+	
+}

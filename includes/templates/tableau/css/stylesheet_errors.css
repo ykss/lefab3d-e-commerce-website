@@ -1,0 +1,50 @@
+.messageStackError,
+.messageStackSuccess,
+.messageStackCaution,
+.messageStackWarning {
+	/*background: #fff url(../images/bullet_product_description.png) no-repeat 0 9px;*/
+	clear: both;
+	color: #262526;
+	padding: 15px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 0 0 0 15px !important;
+	margin-bottom: 13px;
+	position: relative;
+}
+
+div[class*="messageStack"]:before {
+	content: "";
+	background: #2e3233;
+	border-radius: 3px;
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	left: 0;
+	top: 9px;
+}
+
+.messageStackError,
+.messageStackCaution,
+.messageStackWarning {
+	color: #E02828;
+	/*background: #F60A20;*/
+}
+
+.messageStackSuccess {
+	color: #6BB454;
+	/*background: #789AA1;*/
+}
+
+.messageStackError img,
+.messageStackSuccess img,
+.messageStackCaution img,
+.messageStackWarning img {
+	display: none;
+}
+
+.validation {
+	margin: 0 0 30px;
+	display: inline-block;
+}

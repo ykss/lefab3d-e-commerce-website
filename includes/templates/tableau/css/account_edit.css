@@ -1,0 +1,4 @@
+#account-menu + div + div[class*="messageStack"] {
+	margin-top: -5px;
+	margin-bottom: 30px;
+}

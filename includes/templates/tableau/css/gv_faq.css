@@ -1,0 +1,54 @@
+#gvFaqDefaultContent {
+	margin: 30px 0 21px;
+}
+
+	#gvFaqDefaultSubHeading {
+		color: #2e3233;
+		font-size: 22px;
+		margin-top: 30px;
+		margin-bottom: -9px;
+	}
+
+	#gvFaqDefault form,
+	#gvFaqDefault label {
+		display: block;
+	}
+	
+	#middle-column-wrapper legend {
+		display: none;
+	}
+
+	#middle-column-wrapper label {
+		display: block;
+		margin: 0 0 9px;
+		color: #2e3233;
+		font-size: 14px;
+	}
+
+	#gvFaqDefault input[type="text"] {
+		margin: 0 0 21px;
+		display: inline-block;
+		border: 1px solid #ccc;
+		padding: 6px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		width: 240px;
+		height: 33px;
+	}
+
+	#gvFaqDefault input[type="submit"] {
+		background: #3b859e;
+		color: #FFF;
+		border: 1px solid #3b859e;
+		text-transform: uppercase;
+		width: auto !important;
+		padding: 8px 15px 8px 14px;
+		margin:0;
+		font-size:14px;
+		font-weight:bold;
+	}
+
+	#gvFaqDefault .buttonRow {
+		float: none;
+	}

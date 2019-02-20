@@ -1,0 +1,213 @@
+#checkoutpaymentaddressBody #addressBookContainer,
+#checkoutpaymentaddressBody #newAddressContainer {
+	background: #f2f2f2;
+	border: 1px solid #E9E9E9;
+	padding: 21px;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#checkoutpaymentaddressBody #checkoutPayAddressDefaultHeading {
+	border-bottom: none;
+	background: #fffefe;
+	height: auto;
+	line-height: normal;
+	margin-bottom: 15px !important;
+	padding: 0 0 15px !important;
+	padding-left: 0
+}
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#checkoutpaymentaddressBody #checkoutPayAddressDefaultHeading {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+}
+
+/* Main Wrapper */
+#checkoutpaymentaddressBody .address-wrap {
+	background: #fffefe;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* required */
+#checkoutpaymentaddressBody #middle-column-wrapper .required {
+	clear: both;
+    color: #E02828;
+    display: block;
+    font-size: 14px;
+    margin-top: 0;
+    position: absolute;
+    top: 12px;
+	right: 0;
+}
+
+#checkoutpaymentaddressBody #contentMainWrapper label {
+	color: #262526;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: -1px 0 0 2px;
+    max-width: 241px;
+    position: relative;
+}
+
+#checkoutpaymentaddressBody #addressFields label {
+	margin: 0 0 9px 0;
+}
+
+	#checkoutpaymentaddressBody #contentMainWrapper #addressFields label .alert {
+		color: #E02828;
+	    font-size: 12px;
+	    font-weight: normal;
+		position: absolute;
+		right: 3px;
+		top: 35px
+	}
+
+#checkoutpaymentaddressBody #middle-column-wrapper label.checkboxLabel {display: inline;}
+
+#checkoutpaymentaddressBody #middle-column-wrapper input[type="text"],
+#checkoutpaymentaddressBody #middle-column-wrapper select {
+	border: 1px solid #8c8979;
+    height: 31px;
+    margin-bottom: 20px;
+    padding: 0 5px 1px;
+    width: 100%;
+    max-width: 222px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#checkoutpaymentaddressBody #middle-column-wrapper select {
+	padding: 4px 2px;
+}
+
+#checkoutpaymentaddressBody #middle-column-wrapper input[type="text"]:focus,
+#checkoutpaymentaddressBody #middle-column-wrapper select:focus {
+	border-color: #2B2921;
+}
+
+#checkoutpaymentaddressBody .nextstep {display: none;}
+
+#checkoutpaymentaddressBody #middle-column-wrapper input[type="submit"]{
+	background: #3b859e;
+    border: none;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 9px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: auto !important;
+}
+
+#checkoutpaymentaddressBody #middle-column-wrapper input[type="submit"]:hover,
+#checkoutpaymentaddressBody #middle-column-wrapper input[type="submit"]:focus {
+	background: #174d5f
+}
+
+#checkoutpaymentaddressBody #middle-column-wrapper input[type="text"].hiddenField,
+#checkoutpaymentaddressBody #middle-column-wrapper label.hiddenField {
+	display: none;
+}
+
+#checkoutpaymentaddressBody h2 {
+	color: #262526;
+	font-size: 18px;
+	margin: 0 0 30px;
+	font-weight: 700;
+	margin-bottom: 17px; /* sb = 19px */
+}
+
+#checkoutpaymentaddressBody #addressBook {margin: 0 0 30px;}
+
+#checkoutpaymentaddressBody .addressEntry {
+	margin: 0 0 30px;
+	font-size: 14px;
+	line-height: 180%;
+	margin: 0 0 30px;
+	font-size: 14px;
+	line-height: 180%;
+	display: inline-block;
+	vertical-align: top;
+	width: 280px;
+}
+
+#checkoutpaymentaddressBody .addressEntry address {
+	margin: 0 0 0 30px;
+}
+
+#checkoutpaymentaddressBody .addressTitle {
+	margin: 0 0 0 9px;
+}
+
+#checkoutpaymentaddressBody .addressRadio {
+	margin-right: 9px
+}
+
+@media only screen and (max-width: 1038px) {
+	
+	#checkoutpaymentaddressBody #checkoutPayAddressDefaultHeading {
+		overflow: hidden;
+		padding-left: 15px;
+	}
+	
+	#checkoutpaymentaddressBody #middle-column-wrapper #checkoutPayAddressDefault {
+		padding: 0 !important;
+		overflow: hidden !important
+	}
+
+}
+
+@media only screen and (max-width: 880px) {
+	
+	#checkoutpaymentaddressBody h2 {
+		font-size: 16px
+	}
+
+	#checkoutpaymentaddressBody #middle-column-wrapper .required {
+		background: none;
+		float: none;
+		position: static;
+		line-height: normal;
+		padding: 0 0 15px;
+	}
+
+	#checkoutpaymentaddressBody input[type="text"],
+	#checkoutpaymentaddressBody input[type="password"],
+	#checkoutpaymentaddressBody select {
+		max-width: 100% !important
+	}
+
+	#checkoutpaymentaddressBody #contentMainWrapper #addressFields label .alert {
+		position: static;
+	}
+
+	#checkoutpaymentaddressBody #middle-column-wrapper input[type="submit"] {
+		width: 100% !important;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	#checkoutpaymentaddressBody .addressEntry {
+		width: auto;
+	}
+}

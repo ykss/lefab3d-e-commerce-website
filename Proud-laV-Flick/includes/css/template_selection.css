@@ -1,0 +1,71 @@
+h1 {font-family: 'Open Sans', sans-serif; font-size: 30px; font-variant: normal; font-weight: 600; text-align: left; line-height: 100%; margin: 42px 0; color: #444444; padding: 0 42px;}
+.template-selection-wrapper {list-style: none; padding: 0 21px; margin: 0 0 60px; width: 100%; min-width: 978px; overflow: hidden; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.template-selection-wrapper li {width: 33.3333%; float: left; padding: 0 21px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.template-selection-wrapper li.message-success {width: auto !important; float: none; background-color: #61AF44; color: #FFF; margin: 0 21px 48px !important; padding: 9px 15px !important; font-size: 14px;}
+.template-selection-wrapper .template-img {height: 254px; width: 100%; border: 6px solid #CCC; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; overflow: hidden; position: relative; -moz-transition: all .1s ease-in 0s; -webkit-transition: all .1s ease-in 0s; transition: all .1s ease-in 0s;}
+.template-selection-wrapper .active-wrapper {border-color: #1a204c !important;}
+.template-selection-wrapper img {width: 100%; height: auto;}
+.template-img-hover {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(250, 250, 250, .92); opacity: 0; transition: all 0.1s ease-in 0s; -moz-transition: all 0.1s ease-in 0s; -webkit-transition: all 0.1s ease-in 0s;}
+.hover-content {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 85%; text-align: center;}
+.template-img:hover .template-img-hover {opacity: 1; -moz-transition: all .1s ease-in 0s; -webkit-transition: all .1s ease-in 0s; transition: all .1s ease-in 0s; }
+
+.template-img:hover {border-color: #1a204c !important; -moz-transition: all .1s ease-in 0s; -webkit-transition: all .1s ease-in 0s; transition: all .1s ease-in 0s;}
+
+h2 {font-family: 'Open Sans', sans-serif; font-variant: normal; font-weight: 300; color: #444; font-size: 21px; margin: 15px 0 30px;}
+.active {display: block; font-size: 15px; font-weight: 700; margin: 15px 0 0;}
+
+.button-wrapper button, .submit-btn-wrapper button {background: #ccc; background: -moz-linear-gradient(top, #e6e6e6, #c5c5c5); background: -webkit-linear-gradient(top, #e6e6e6, #c5c5c5); background: -o-linear-gradient(top, #e6e6e6, #c5c5c5); background: -ms-linear-gradient(top, #e6e6e6, #c5c5c5); background: linear-gradient(top, #e6e6e6, #c5c5c5); font-size: 15px; font-family: 'Open Sans', sans-serif; color: #1a214d; border: 1px solid #ccc; padding: 6px 0px; width: 99px; text-align: center; margin: 0 0 18px; display: inline-block; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.button-wrapper button:hover {cursor: pointer; background: -moz-linear-gradient(top, #e6e6e6, #bbb); background: -webkit-linear-gradient(top, #e6e6e6, #bbb); background: -o-linear-gradient(top, #e6e6e6, #bbb); background: -ms-linear-gradient(top, #e6e6e6, #bbb); background: linear-gradient(top, #e6e6e6, #bbb);}
+
+
+.button-wrapper button.activate, .button-wrapper button.customize, .submit-btn-wrapper button {background: #EA4725; background: -moz-linear-gradient(top, #EA4725, #D03F21); background: -webkit-linear-gradient(top, #EA4725, #D03F21); background: -o-linear-gradient(top, #EA4725, #D03F21); background: -ms-linear-gradient(top, #EA4725, #D03F21); background: linear-gradient(top, #EA4725, #D03F21); color: #fff;}
+
+.button-wrapper button.activate:hover, .button-wrapper button.customize:hover, .submit-btn-wrapper button:hover {
+background: #EA4725; background: -moz-linear-gradient(top, #EA4725, #AA341B); background: -webkit-linear-gradient(top, #EA4725, #AA341B); background: -o-linear-gradient(top, #EA4725, #AA341B); background: -ms-linear-gradient(top, #EA4725, #AA341B); background: linear-gradient(top, #EA4725, #AA341B); color: #fff;
+}
+
+
+.button-wrapper .more-info {border-color: #ccc;}
+h4 {font-family: 'Open Sans', sans-serif; font-variant: normal; font-weight: 700; color: #444; font-size: 15px;}
+.template-selection-wrapper .template-info {margin: 0; padding: 0; font-size: 13px; font-family: 'Open Sans', sans-serif;}
+.template-selection-wrapper .template-info li {float: none; width: 100%; padding: 0; list-style: none; margin: 0;}
+.section-content {margin: 0 0 30px; font-size: 13px; font-family: 'Open Sans', sans-serif;}
+
+
+/* Modal Wrapper Info */
+.modal-wrapper {padding: 42px;}
+.left-col, .right-col {float: left;}
+.left-col {margin: 0 42px 0 0;}
+.image-wrapper {width: 360px; height: 360px; overflow: hidden; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.right-col {width: 318px;}
+.image-wrapper img {width: 100%; height: auto;}
+.right-col h2 {margin-top: 0;}
+.right-col ul {list-style: none; margin: 0; padding: 0;}
+
+
+/* Configuration Menu */
+#configuration-wrapper {margin: 0 42px 48px; padding: 0; position: relative; min-width: 978px; background: #E7E7E7; background: -moz-linear-gradient(top, #E7E7E7, #F7F7F7); background: -webkit-linear-gradient(top, #E7E7E7, #F7F7F7); background: -o-linear-gradient(top, #E7E7E7, #F7F7F7); background: -ms-linear-gradient(top, #E7E7E7, #F7F7F7); background: linear-gradient(top, #E7E7E7, #F7F7F7); border: 1px solid #ccc;}
+#configuration-wrapper h2 {margin: 0; font-weight: 700 !important; border-bottom: 1px solid #FFF; padding: 30px 30px 24px; position: relative; font-size: 24px !important;}
+#configuration-wrapper .icon a {position: absolute; top: 34px; right: 12px; color: #444444; font-size: 21px;}
+.icon img {width: 50%;}
+#configuration-wrapper .icon a:hover {color: #EA4725;}
+#configuration-wrapper h2:after {height: 1px; background-color: #CCC; width: 100%; content: ""; z-index: 1; position: absolute; display: block; bottom: 0px; left: 0;}
+#tabs {position: relative; font-size: 14px;}
+.ui-tabs-nav {width: 20%; display: block; float: left; padding: 0; margin: 0; list-style: none; position: relative;}
+.ui-tabs-nav li a {display: block; padding: 15px 15px 15px 30px; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color: #999; font-size: 14px;}
+.ui-tabs-nav li.ui-tabs-active a {background-color: #FFF; z-index: 10; border-right: #FFF; color: #1A204C !important;}
+.ui-tabs-nav li a:hover {color: #EA4725 !important; text-decoration: none !important;}
+.ui-tabs-panel {width: 80%; display: block; float: left; background-color: #FFF; border-left: 1px solid #ccc; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; left: -1px; padding: 30px;}
+.submit-btn-wrapper {border-top: 1px solid #ccc; padding: 12px 30px; clear: both; text-align: right;}
+.submit-btn-wrapper button {width: 150px; margin: 0 !important;}
+.submit-btn-wrapper button:hover {cursor: pointer;}
+
+#tabs h3 {font-size: 15px; font-weight: 500 !important; background: #3fa9c3; color: #FFF; padding: 15px 12px; margin: 0 0 33px;}
+#tabs h4 {font-size: 20px !important; font-weight: 700;}
+#tabs .inputtext-area label, #tabs .textarea-area label {display: block; margin: 0 0 9px; font-size: 14px; font-family: 'Open Sans', sans-serif;}
+#tabs .inputtext-area {font-size: 14px; font-family: 'Open Sans', sans-serif; margin: 0 0 30px;}
+#tabs input[type="text"], #tabs .textarea-area textarea {border-color: #DEDCDA; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-width: 1px; -webkit-box-shadow: 0 1px 4px 0 rgba(134, 132, 127, 0.25) inset; -moz-box-shadow: 0 1px 4px 0 rgba(134, 132, 127, 0.25) inset; box-shadow: 0 1px 4px 0 rgba(134, 132, 127, 0.25) inset; color: #4C4945; outline: medium none; padding: 12px; transition: all 0.1s ease-in 0s; width: 33%; margin: 0 0 30px; font-size: 14px; font-family: 'Open Sans', sans-serif;}
+#tabs input[type="text"].color-field {width: 12% !important;}
+#tabs .textarea-area textarea  {width: 66% !important; height: 240px; font-size: 14px; font-family: 'Open Sans', sans-serif;}
+#tabs .checkbox-area {margin: 0 0 30px; font-size: 14px; font-family: 'Open Sans', sans-serif;}
+.ui-tabs-panel .message {background-color: #61AF44; color: #FFF; padding: 9px 15px;}

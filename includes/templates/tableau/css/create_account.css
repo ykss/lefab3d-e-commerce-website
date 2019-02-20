@@ -1,0 +1,178 @@
+/* Headers */
+h2 { color: #2e3233; font-size: 19px; text-transform: none; margin: 0 0 20px; border-bottom: none; padding: 0 0 20px; font-weight: bold;}
+
+h4 {
+	clear: both;
+    font-size: 14px;
+    margin: 0 0 17px;
+    position: relative;
+    top: -1px;
+}
+
+	h4 a {
+		color: #3b859e;
+		font-weight: normal;
+		text-decoration: underline;
+	}
+
+	h4 a:hover {
+		color: #174d5f;
+	}
+
+/* Required Information */
+.required-information {font-size: 14px;color: #E02828;padding-top: 13px;}
+
+#createAcctDefault input[type="text"] + .alert,
+#createAcctDefault input[type="password"] + .alert,
+#createAcctDefault select + .alert,
+#createAcctDefault label .alert,
+#createAcctDefault label + .alert {
+	position: relative;
+	top: 4px;
+	color: #E02828;
+	left: 3px;
+	font-size: 16px
+}
+
+#createAcctDefault label .alert {
+	position: static;
+	font-size: 14px
+}
+
+#createAcctDefault select + .alert {
+	left: 7px
+}
+
+/* Columns */
+.col-left, .col-right{
+	width:50%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.col-left {float: left;border-right: 1px solid #e2e3df;padding-right: 4%;}
+.col-right {float: right;padding-left: 5%;}
+
+/* Errors */
+.messageStackError {margin: 0 0 30px;}
+.messageStackError + .messageStackError { margin-top: -22px }
+#createAcctDefault input[type="text"].missing, #createAcctDefault input[type="password"].missing, #createAcctDefault select.missing {border: 1px solid red;}
+
+/* Containers */
+.login-details-wrapper {border: none; padding: 5px 0 15px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-size: 13px;}
+.login-details-wrapper h2 {padding: 0;}
+.container {padding: 0 0;}
+
+#privacy-conditions {
+	margin-top: 10px
+}
+
+/* Labels & Inputs */
+#createAcctDefault .inputLabel {display: block; margin: 0 0 9px; line-height: normal; font-size: 14px; color: #2e3233;}
+#createAcctDefault input[type="text"], #createAcctDefault input[type="password"], #createAcctDefault select {width: 95%; border: 1px solid #aab5b9; padding: 5px; margin: 0 0 18px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; height: 33px;}
+#createAcctDefault input[type="text"], #createAcctDefault input[type="password"] {margin: 0 5px 18px 0;}
+#createAcctDefault label.inputLabel.hiddenField {display: none;}
+
+/* CSS Buttons */
+#createAcctDefault .cssButton,
+#createAcctDefault .cssButtonHover {background: #3b859e; color: #FFF; border: 0; padding: 8px 15px 9px 14px; text-transform: uppercase; font-size: 14px; width: auto !important; border: 1px solid #3b859e; margin: 30px 0 0; font-weight: bold;}
+
+@-moz-document url-prefix() {
+	#createAcctDefault .cssButton,
+	#createAcctDefault .cssButtonHover {
+		padding: 7px 12px 7px 11px;
+	}
+}
+
+#createAcctDefault .cssButton:focus,
+#createAcctDefault .cssButtonHover {background: #174d5f; color: #fff; cursor: pointer;}
+
+/* Communication Preferences */
+#subscribe-wrapper {margin: 0 0 20px;}
+#createAcctDefault .radioButtonLabel,
+#createAcctDefault .checkboxLabel {padding: 0 30px 0 9px;font-size: 14px;position: relative;top: 2px;}
+
+/* gender */
+#createAcctDefault .field-gender {
+	margin-bottom: 18px
+}
+
+/* privacy */
+#privacy-conditions .information {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 15px
+}
+
+	#privacy-conditions .information a {
+		color: #3b859e;
+	}
+
+	#privacy-conditions .information a:hover {
+		color: #174d5f;
+	}
+
+/* referral */
+#customer-referral {
+	margin-top: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.col-left,
+	.col-right {
+		width: 100%;
+		float: none;
+		border: none;
+		padding: 0;
+	}
+
+	.col-left {
+		border-bottom: 1px solid #e2e3df;
+		padding-bottom: 6px;
+	}
+
+	.col-right {
+		padding-top: 30px;
+	}
+	
+	#login-details-wrapper {
+		margin: 30px 0 0;
+	}
+	
+	#createAcctDefault input[type="text"],
+	#createAcctDefault input[type="password"],
+	#createAcctDefault select {
+		width: 97%;
+	}
+	
+	#createAcctDefault .cssButton,
+	#createAcctDefault .cssButtonHover {
+		width: 100% !important;
+	}
+
+	h4 {
+		line-height: 22px
+	}
+
+	.required-information,
+	.sub-page-wrapper h1 {
+		float: none;
+	}
+
+	.required-information {
+		padding-bottom: 20px;
+		padding-top: 0;
+	}
+
+}
+
+@media only screen and (max-width: 560px) {
+	
+	#createAcctDefault input[type="text"],
+	#createAcctDefault input[type="password"],
+	#createAcctDefault select {
+		width: 95%;
+	}
+}	
+	

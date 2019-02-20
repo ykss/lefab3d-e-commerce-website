@@ -1,0 +1,67 @@
+.account-info-wrapper {
+	margin-top: 1px
+}
+.gender-wrapper {margin: 0 0 22px;}
+#primary {
+	margin: 0;
+}
+
+.gender-wrapper input {
+	margin: 0 6px 0 1px;
+}
+
+.gender-wrapper label {
+	margin-right: 9px !important;
+	position: relative;
+	top: 2px;
+}
+
+#primary {
+	position: relative;
+	top: 0;
+	margin-right: 9px !important;
+	margin-bottom: 21px !important;
+	float: left;
+}
+
+.buttonRow {
+	margin: 1px 0 0;
+}
+
+/* delete address */
+.delete-address {
+	margin-bottom: 38px;
+}
+
+	.delete-address p {
+		font-size: 14px;
+		margin-bottom: 21px
+	}
+
+.delete-container address {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 21px;
+}
+
+.back-button {
+	position: relative;
+	top: 10px;
+	left: 12px;
+}
+
+	.back-button a {
+		color: #3b859e;
+		text-decoration: none;
+		font-weight: normal;
+		font-size: 14px;
+	}
+
+	.back-button a:hover {
+		color: #174d5f;
+	}
+
+@media only screen and (max-width: 480px) {
+	#addressBookProcessDefaultHeading.back {width: 100%; float: none !important; margin: 0 0 21px;}
+	.required.forward {width: 100%; float: none !important; margin: 0 0 21px;}
+}

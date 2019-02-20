@@ -1,0 +1,428 @@
+/* Main Sidebox Controls */
+#navColumnOne {
+	background: #e2e3df;
+	margin-right: 3.0674%;
+	padding: 0 12px;
+	width: 17.0756%;
+
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+	#navColumnOne .filter-results-title {
+		color: #2e3233;
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 18px;
+		padding: 15px 0 13px;
+		text-transform: uppercase;	
+	}
+
+#navColumnOneWrapper .leftBoxContainer {
+	margin: 1px 0 0;
+	padding: 0;
+}
+
+#navColumnOneWrapper .leftBoxContainer:last-child {
+	border-bottom: 0;
+}
+
+#navColumnOneWrapper #mycategories {
+	border-top: none;
+	/*padding-bottom: 13px;*/
+	padding-top: 0
+}
+
+.leftBoxContainer h3 {
+	background: #2e3233;
+	
+	cursor: pointer;
+	font-size: 14px; 
+	position: relative;
+	margin: 0 -12px;
+	padding: 9px 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.leftBoxContainer h3,
+.leftBoxContainer h3 a {
+	color: #e2e3df;
+	text-decoration: none;
+}
+
+.leftBoxContainer h3 a {
+   position: relative;
+   z-index: 100;
+}
+
+.leftBoxContainer > h3 + * {
+	margin-top: 13px
+}
+
+
+.leftBoxContainer > h3 + div {
+	padding-bottom: 15px;}
+
+#categoriesContent {
+	padding-bottom: 10px
+}
+
+.sideBoxContent .sideBoxContentItem {
+	margin-top: 21px;
+	font-size: 14px
+}
+
+.sideBoxContent .sideBoxContentItem:first-child {
+	margin-top: 0;
+	padding-top: 5px
+}
+
+.sideBoxContentItem .wrap-image,
+.reviewsContent .wrap-image {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 12px;
+}
+
+	.sideBoxContentItem .wrap-image-inner,
+	.reviewsContent .wrap-image-inner {
+		background: #fff;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 12px;
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+.sideBoxContentItem a:first-child,
+.reviewsContent a:first-child {
+	text-decoration: none;
+	display: block;
+	margin-bottom: 12px;
+	color: #2e3233;
+	line-height: 18px;
+	overflow: hidden;
+	text-decoration: none;
+	position: relative;
+	padding-top: 0;
+	font-size: 14px;
+}
+
+	.sideBoxContentItem a:first-child:before,
+	.reviewsContent a:first-child:before {
+		background: #fff;
+		content: "";
+		height: 142px;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	
+		z-index: 1;
+		display: none;
+	}
+
+	.sideBoxContentItem a:hover:first-child:before,
+	.reviewsContent a:hover:first-child:before{
+		border: 1px solid #caf200;
+	}
+
+.sideBoxContentItem a:first-child img,
+.reviewsContent a:first-child img {
+	display: block;
+	height: auto;
+	max-height: 118px;
+	max-width: 118px;
+	width: auto;
+	position: relative;
+	z-index: 2;
+}
+
+.sideBoxContentItem a br,
+.reviewsContent br {
+	display: none;
+}
+
+.sideBoxContentItem a + div {
+	margin-top: 8px;
+	color: #001822;
+	font-weight: bold;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.sideBoxContentItem a + div span {
+	display: inline-block;
+	font-size: 16px;
+	overflow: hidden;
+	font-weight: normal;
+}
+
+	.sideBoxContentItem .productSpecialPrice {
+		color: #3b859e;
+		float: left;
+		font-weight: bold;
+		margin-right: 10px;
+	}
+
+	.sideBoxContentItem .normalprice {
+		color: #515b5e;
+		text-decoration: line-through;
+	}
+
+	.sideBoxContentItem .productPriceDiscount {
+		clear: both;
+		display: block;
+		font-size: 12px;
+		margin-top: 6px;
+	}
+
+	.sideBoxContentItem a + div span:first-child {
+		margin-left: 0;
+	}
+
+	.sideBoxContentItem a + div img {
+		display: block;
+		margin-top: 5px;
+	}
+
+#whosonlineContent {
+	font-size: 14px;
+	line-height: 16px
+;
+	color: #515b5e;
+}
+
+.leftBoxContainer h3 + [id*="banner"] {
+    padding: 0 0 18px;
+	
+}
+
+	.leftBoxContainer h3 + [id*="banner"] a {
+		display: block;
+		margin: 15px 0 0;
+	
+		text-align: center;
+}
+	
+	.leftBoxContainer h3 + [id*="banner"] br {
+		display: none
+	}
+
+.leftBoxContainer h3:hover {
+	background: #3b859e
+}
+
+	.collapse-sidebox,
+	.expand-sidebox {
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%
+	}
+	
+	.collapse-sidebox:before,
+	.expand-sidebox:before {
+		border-style: solid;
+		cursor: pointer;
+		content: "";
+		height: 0;
+	    position: absolute;
+	    right: 10px;
+	    top: 12px;
+	    width: 0;
+
+	}
+
+	.collapse-sidebox:before {
+		border-color: transparent transparent #E2E3DF;
+	    border-width: 0 4px 8px;
+	}
+
+	.expand-sidebox:before {
+		border-width: 8px 4px 0 4px;
+		border-color: #e2e3df transparent transparent transparent;
+	}
+
+#navColumnOne .sideBoxContent select {
+	width: 100%;
+	padding: 5px;
+	height: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* My Categories */
+.sideBoxContent > ul {
+	border-top: 1px solid #b7bcaf;
+	margin: 4px 0 0;
+	padding-top: 4px
+}
+
+.sideBoxContent > ul:first-child {
+	border-top: medium none;
+    margin-bottom: 0;
+    margin-top: -8px;
+    padding-top: 0;
+}
+
+#simplecategories ul li a:hover,
+.sideBoxContent ol li a:hover,
+.sideBoxContent li a:hover,
+.sideBoxContent li a[class*="activ"]:hover {
+	color: #3b859e
+}
+
+#simplecategories ul {
+	margin-top: 8px;
+	padding-bottom: 8px
+}
+
+.sideBoxContent ol li a[class*="activ"],
+.sideBoxContent li a[class*="activ"] {
+	color: #2e3233;
+	font-weight: bold;
+}
+
+#simplecategories ul li a,
+.sideBoxContent ol li a,
+.sideBoxContent li a,
+.sideBoxContent li a[class*="no_activ"] {
+	color: #515b5e;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 6px 0;
+	text-decoration: none;
+}
+
+	.sideBoxContent li ul,
+	#simplecategories li ul {
+		display: none;
+		padding-left: 10px
+	}
+
+	.sideBoxContent li ul.active1,
+	.sideBoxContent li ul.active2,
+	.sideBoxContent li ul.active3,
+	.sideBoxContent li ul.active4 {
+		display: block;
+	}
+
+
+/* Recently Viewed */
+#recentproductsContent {
+	background: #fff;
+	display: table;
+	margin: 12px 0;
+	padding: 0;
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+	#recentproductsContent a {
+		background: #fff;
+		border: 1px solid transparent;
+		color: #3e4237;
+		display: table-cell;
+		font-size: 12px;
+		height: 118px;
+		padding: 12px;
+		text-align: center;
+		text-decoration: none;
+		vertical-align: middle;
+	}
+
+	#recentproductsContent a:hover {
+		border: 1px solid #CAF200;		
+	}
+
+		#recentproductsContent img {
+			display: block;
+			height: auto;
+			margin: 0 auto;
+			max-height: 118px;
+			max-width: 118px;
+			width: auto
+		}
+
+		#recentproductsContent .recently-viewed-product-title {
+			display: none;
+		}
+
+/* search */
+#navColumnOne [name="quick_find"] {
+	cursor: pointer;
+	display: block !important;
+}
+	
+	#navColumnOne [name="quick_find"] .cssButton,
+	#navColumnOne [name="quick_find"] .cssButtonHover,
+	#navColumnOne [name="quick_find"] input[type="text"] {
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	#navColumnOne [name="quick_find"] input[type="text"] {
+		margin: 0;
+		font-size: 14px;
+		padding: 5px 5px;
+		width: 100% !important
+	}
+
+	#navColumnOne [name="quick_find"] .cssButton,
+	#navColumnOne [name="quick_find"] .cssButtonHover {
+		background: #3b859e;
+		border: none;
+		color: #fff;
+		padding: 7px 9px;
+		margin: 0;
+		position: relative;
+		top: 0;
+		font-size: 14px;
+		width: 100% !important;
+		margin-top: 10px;
+	}
+
+	#navColumnOne [name="quick_find"] .cssButton:hover,
+	#navColumnOne [name="quick_find"] .cssButtonHover:hover {
+		background: #174d5f;
+		
+	}
+
+	#navColumnOne [name="quick_find"] a {
+		color: #515b5e;
+		display: block;
+		margin-top: 15px;
+		font-size: 14px;
+		text-decoration: none;
+		text-align: center
+	}
+
+/* Sizes */
+.sizes-options li {margin: 0 0 18px;}
+
+/* Sizes Active State */
+.sizes-options li a.active {color: #cc0000;}
+
+/* Styles */
+.styles-options li {margin: 0 0 18px;}
+
+/* Styles Active State */
+.styles-options li a.active {color: #cc0000;}

@@ -1,0 +1,52 @@
+#account-menu {
+	margin-bottom: 6px !important;
+}
+
+#addressBookDefault div[class*="messageStack"] {
+	margin-top: 29px;
+	margin-bottom: 0;
+}
+
+.address-wrapper {width: 48.4662576687115% /* 100% - .first-address marg / 2 */; float: left; background: #f2f2f2; color: #2e3233; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; padding: 30px 30px 26px; height: 222px; position: relative; margin: 30px 0 0; border: 1px solid #E9E9E9;}
+.address-wrapper.first-address {margin: 30px 3.067484662577% 0 0 /* 30px/978px */; clear: both;}
+.address-left-col {font-size: 0.875em /* 14px/16px */; line-height: 150%;}
+.address-left-col h3 {font-weight: 700; text-transform: capitalize; margin: 0 0 15px; text-transform: uppercase;}
+.primary-address {color: #3b859e; padding: 0 0 0 12px; text-transform: lowercase;}
+.address-left-col {width: 80%;}
+.address-right-col {font-size: 0.75em /* 12px/16px */; line-height: 180%; position: absolute; bottom: 27px; right: 30px; }
+.address-right-col a {color: #3b859e; text-decoration: underline; font-weight: normal;}
+.address-right-col a:hover {text-decoration: underline;color: #174d5f;}
+.add-address-btn a {margin: 30px 0 0; background: #3b859e; color: #FFF !important; border: 0; text-transform: uppercase; border: 1px solid #3b859e; width: auto !important; padding: 10px 11px; display: inline-block; font-size: 14px; text-decoration: none; font-weight: bold}
+.add-address-btn a:hover {background: #174d5f; color: #fff;}
+.responsive-view {display: none;}
+.desktop-view {display: block;}
+.fancybox-overlay {opacity: .85; filter: alpha(opacity=85);}
+.fancybox-skin {padding: 0 !important;}
+.fancybox-inner {overflow: hidden !important;}
+.fancybox-inner #addressBookProcessDefault {width: 390px; background: #999;}
+.fancybox-inner .account-info-wrapper {width: 100% !important; min-width: none !important; background: none !important; border-top: 1px solid #FFF;}
+.account-info-wrapper label, .account-info-wrapper input[type="text"], .account-info-wrapper input[type="password"], .account-info-wrapper select {width: 93% !important;}
+.fancybox-inner .gender-wrapper {margin: 0 0 15px;}
+.fancybox-inner .buttonRow {margin: 15px 0 0;}
+.fancybox-skin h1 {font-size: 18px !important; padding: 21px 21px 0; margin-bottom: 21px !important;}
+.fancybox-skin .required {padding: 21px 21px 0 0; line-height: 18px;}
+.fancybox-skin .messageStackSuccess {display: none;}
+.account-info-wrapper input[type="text"].hiddenField, .account-info-wrapper label.hiddenField {display: none;}
+
+@media only screen and (max-width: 912px) {
+	.address-wrapper {width: 100% !important; margin: 30px 0 0 !important;}
+}
+
+@media only screen and (max-width: 875px) {
+	.required {margin: 30px 0 0;}
+	.responsive-view {display: block;}
+	.desktop-view {display: none;}
+}
+
+@media only screen and (max-width: 640px) {
+	.address-wrapper {height: auto !important;}
+	.address-left-col, .address-right-col {width: 100%;}
+	.address-right-col {position: static; margin: 30px 0 0;}
+	.address-right-col a {text-decoration: underline;}
+	.primary-address {display: block; margin: 0 !important; padding: 0 !important;}
+}
